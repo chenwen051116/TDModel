@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-refobj = o_wall;
+refobj = o_wallTwr;
 cost = 100;

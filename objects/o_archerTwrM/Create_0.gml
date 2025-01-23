@@ -3,5 +3,5 @@
 // add some comments
 // Inherit the parent event
 event_inherited();
-refobj = o_att;
+refobj = o_archerTwr;
 cost = 400;

@@ -8,12 +8,13 @@ if(h <= 0){
 	room_goto(menu);
 }
 
-tnum=instance_number(tower)-1;
+tnum=instance_number(o_par_twr)-1;
 //}
 //else{
 //	tnum=0;
 //}
 mdvd = power(2,tnum/20) * global.gdthe;
+
 
 
 if(gmtimer <= 310){
@@ -52,12 +53,12 @@ if(tb <=0&&basenum <=15){
 	ry=random_range(200,2800);
 	rx=2800;
 	}
-	if(place_meeting(rx,ry,o_mbase)){
+	if(place_meeting(rx,ry,o_monsterBase)){
 		flag=false;
 	}
 	}
 	
-	instance_create_layer(rx,ry,"Instances",o_mbase);
+	instance_create_layer(rx,ry,"Instances",o_monsterBase);
 	tb=tbt;
 	basenum ++;
 }

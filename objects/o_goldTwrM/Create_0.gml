@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-refobj = o_goldt;
+refobj = o_goldTwr;
 cost = 400;

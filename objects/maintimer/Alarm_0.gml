@@ -22,7 +22,7 @@ else if (theme == 4){
 daynum +=1;
 if(theme == 0){ 
 txt = "Peace";
-o_mbase.the = 1; 
+o_monsterBase.the = 1; 
 global.spdthe = 1;
  global.gdthe = 1;
  global.fcythe = 1;
@@ -30,28 +30,28 @@ global.spdthe = 1;
 
 else if (theme == 1){
 txt = "Breeding (Faster Generating Speed)";
-o_mbase.the = 0.9; 
+o_monsterBase.the = 0.9; 
 global.spdthe = 1;
  global.gdthe = 1;
  global.fcythe = 1;
 }
 else if (theme == 2){
 txt = "Strike (Faster Speed)";
-o_mbase.the = 1; 
+o_monsterBase.the = 1; 
 global.spdthe = 1.2;
  global.gdthe = 1;
  global.fcythe = 1;
 }
 else if (theme == 3){
 txt = "Starve (Less Money)";
-o_mbase.the = 1; 
+o_monsterBase.the = 1; 
 global.spdthe = 1;
  global.gdthe = 1.5;
  global.fcythe = 1;
 }
 else if (theme == 4){
 txt = "Mutation (Lower Frequency)";
-o_mbase.the = 1; 
+o_monsterBase.the = 1; 
 global.spdthe = 1;
 global.gdthe = 1;
 global.fcythe = 1.2;

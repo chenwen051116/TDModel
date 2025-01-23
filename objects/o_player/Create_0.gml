@@ -9,4 +9,4 @@ matkint = 0.2;
 atkint = matkint;
 
 
-colobj = [o_main, tower,o_mbase];
+colobj = [o_main, o_par_twr,o_monsterBase];
