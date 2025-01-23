@@ -84,7 +84,6 @@
     {"id":{"name":"o_wallm","path":"objects/o_wallm/o_wallm.yy",},},
     {"id":{"name":"tower","path":"objects/tower/tower.yy",},},
     {"id":{"name":"Pathroom1","path":"paths/Pathroom1/Pathroom1.yy",},},
-    {"id":{"name":"B1","path":"rooms/B1/B1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
     {"id":{"name":"arrowshot","path":"sounds/arrowshot/arrowshot.yy",},},
@@ -136,7 +135,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
-    {"roomId":{"name":"B1","path":"rooms/B1/B1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
