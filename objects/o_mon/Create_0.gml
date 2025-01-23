@@ -1,6 +1,5 @@
 direction = point_direction(x,y,o_main.x,o_main.y);
 spd=2;
-speed = spd;
 _maxh=100;//maxhealth
 _mh=1;//when collide
 _m=ceil(10/(o_main.mdvd+1));//money
@@ -10,3 +9,7 @@ _h=_maxh;//health
 
 x_previous = x;
 y_previous = y;
+
+cur_path = path_add();
+start_x=x;
+start_y=y;

@@ -15,6 +15,13 @@ if(_led == 1){
 	o_main.nearposx = x;
 	o_main.nearposy = y;
 }
+
+if (mp_grid_path(global.monMap, cur_path, x, y, o_main.x, o_main.y, true)) {
+    // Assign the path to an object
+    path_start(cur_path, spd, path_action_stop, false);
+} else {
+    path_end();
+}
 	
 if(place_meeting(x,y,o_froztzone)){
 	path_speed = spd * global.spdthe/2;
