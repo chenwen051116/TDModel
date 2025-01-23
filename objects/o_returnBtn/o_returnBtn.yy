@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"menuobj",
+  "%Name":"o_returnBtn",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"menuobj",
+  "name":"o_returnBtn",
   "overriddenProperties":[],
   "parent":{
-    "name":"twrSelMenu",
-    "path":"folders/Objects/twrSelMenu.yy",
+    "name":"button",
+    "path":"folders/Objects/twrSelMenu/button.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"re",
+    "path":"sprites/re/re.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

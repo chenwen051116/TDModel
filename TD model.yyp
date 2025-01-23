@@ -44,7 +44,6 @@
   "name":"TD model",
   "resources":[
     {"id":{"name":"maintimer","path":"objects/maintimer/maintimer.yy",},},
-    {"id":{"name":"menuobj","path":"objects/menuobj/menuobj.yy",},},
     {"id":{"name":"o_archerTwrM","path":"objects/o_archerTwrM/o_archerTwrM.yy",},},
     {"id":{"name":"o_att","path":"objects/o_att/o_att.yy",},},
     {"id":{"name":"o_boundary","path":"objects/o_boundary/o_boundary.yy",},},
