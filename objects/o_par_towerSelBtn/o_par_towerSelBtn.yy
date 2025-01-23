@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"o_gtm",
+  "%Name":"o_par_towerSelBtn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_gtm",
+  "name":"o_par_towerSelBtn",
   "overriddenProperties":[],
   "parent":{
-    "name":"menuPart",
-    "path":"folders/Objects/menuPart.yy",
+    "name":"button",
+    "path":"folders/Objects/twrSelMenu/button.yy",
   },
-  "parentObjectId":{
-    "name":"o_selm",
-    "path":"objects/o_selm/o_selm.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"goldt",
-    "path":"sprites/goldt/goldt.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

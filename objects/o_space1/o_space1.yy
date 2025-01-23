@@ -8,8 +8,8 @@
   "name":"o_space1",
   "overriddenProperties":[],
   "parent":{
-    "name":"menuPart",
-    "path":"folders/Objects/menuPart.yy",
+    "name":"twrSelMenu",
+    "path":"folders/Objects/twrSelMenu.yy",
   },
   "parentObjectId":{
     "name":"o_spacex",

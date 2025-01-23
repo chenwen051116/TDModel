@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"o_frozm",
+  "%Name":"o_wallTwrM",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_frozm",
+  "name":"o_wallTwrM",
   "overriddenProperties":[],
   "parent":{
-    "name":"menuPart",
-    "path":"folders/Objects/menuPart.yy",
+    "name":"twrSelMenu",
+    "path":"folders/Objects/twrSelMenu.yy",
   },
   "parentObjectId":{
-    "name":"o_selm",
-    "path":"objects/o_selm/o_selm.yy",
+    "name":"o_par_towerSelBtn",
+    "path":"objects/o_par_towerSelBtn/o_par_towerSelBtn.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"frozen",
-    "path":"sprites/frozen/frozen.yy",
+    "name":"wall",
+    "path":"sprites/wall/wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"o_returnmenu",
+  "%Name":"o_frozeTwrM",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_returnmenu",
+  "name":"o_frozeTwrM",
   "overriddenProperties":[],
   "parent":{
-    "name":"menuPart",
-    "path":"folders/Objects/menuPart.yy",
+    "name":"twrSelMenu",
+    "path":"folders/Objects/twrSelMenu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_par_towerSelBtn",
+    "path":"objects/o_par_towerSelBtn/o_par_towerSelBtn.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"re",
-    "path":"sprites/re/re.yy",
+    "name":"frozen",
+    "path":"sprites/frozen/frozen.yy",
   },
   "spriteMaskId":null,
   "visible":true,
