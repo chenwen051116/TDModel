@@ -8,12 +8,12 @@
   "name":"o_space",
   "overriddenProperties":[],
   "parent":{
-    "name":"menuPart",
-    "path":"folders/Objects/menuPart.yy",
+    "name":"twrSelMenu",
+    "path":"folders/Objects/twrSelMenu.yy",
   },
   "parentObjectId":{
-    "name":"o_selm",
-    "path":"objects/o_selm/o_selm.yy",
+    "name":"o_par_towerSelBtn",
+    "path":"objects/o_par_towerSelBtn/o_par_towerSelBtn.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

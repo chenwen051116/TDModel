@@ -8,8 +8,8 @@
   "name":"menuobj",
   "overriddenProperties":[],
   "parent":{
-    "name":"menuPart",
-    "path":"folders/Objects/menuPart.yy",
+    "name":"twrSelMenu",
+    "path":"folders/Objects/twrSelMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
