@@ -11,8 +11,8 @@
   "name":"o_spacex",
   "overriddenProperties":[],
   "parent":{
-    "name":"menupart",
-    "path":"folders/Objects/menupart.yy",
+    "name":"menuPart",
+    "path":"folders/Objects/menuPart.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"o_wallm",
   "overriddenProperties":[],
   "parent":{
-    "name":"menupart",
-    "path":"folders/Objects/menupart.yy",
+    "name":"menuPart",
+    "path":"folders/Objects/menuPart.yy",
   },
   "parentObjectId":{
     "name":"o_selm",

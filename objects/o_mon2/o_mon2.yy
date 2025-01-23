@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"monsters",
-    "path":"folders/Objects/Gameelement/monsters.yy",
+    "path":"folders/Objects/gameElement/monsters.yy",
   },
   "parentObjectId":{
     "name":"o_mon",

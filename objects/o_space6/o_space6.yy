@@ -8,8 +8,8 @@
   "name":"o_space6",
   "overriddenProperties":[],
   "parent":{
-    "name":"menupart",
-    "path":"folders/Objects/menupart.yy",
+    "name":"menuPart",
+    "path":"folders/Objects/menuPart.yy",
   },
   "parentObjectId":{
     "name":"o_spacex",

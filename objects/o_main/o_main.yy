@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"player element",
-    "path":"folders/Objects/Gameelement/player element.yy",
+    "path":"folders/Objects/gameElement/player element.yy",
   },
   "parentObjectId":{
     "name":"tower",
