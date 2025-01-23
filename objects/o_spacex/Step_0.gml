@@ -1,0 +1,1 @@
+sprite_index = object_get_sprite(global.towerselect[selnum]);
