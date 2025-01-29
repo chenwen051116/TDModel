@@ -11,7 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Fonts/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -82,7 +82,6 @@
     {"id":{"name":"o_wallTwr","path":"objects/o_wallTwr/o_wallTwr.yy",},},
     {"id":{"name":"o_wallTwrM","path":"objects/o_wallTwrM/o_wallTwrM.yy",},},
     {"id":{"name":"Pathroom1","path":"paths/Pathroom1/Pathroom1.yy",},},
-    {"id":{"name":"B1","path":"rooms/B1/B1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
     {"id":{"name":"arrowshot","path":"sounds/arrowshot/arrowshot.yy",},},
@@ -134,7 +133,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
-    {"roomId":{"name":"B1","path":"rooms/B1/B1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",

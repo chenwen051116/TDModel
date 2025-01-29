@@ -3,34 +3,34 @@
 if keyboard_check(ord("W"))
 {
     //motion_add(90, spd);
-	yspd-=0.2;
+	y-=8;
 }
 
 if keyboard_check(ord("S"))
 {
     //motion_add(90, -1*spd);
-	yspd+=0.2;
+	y+=8;
 }
 
 if keyboard_check(ord("A"))
 {
     //motion_add(0, -1*spd);
-	xspd-=0.2;
+	x-=8;
 }
 
 
 if keyboard_check(ord("D"))
 {
     //motion_add(0, spd);
-	xspd+=0.2;
+	x+=8;
 }
 //	if (!place_meeting(x, y + yspd, colobj))
 //	{
-		y += yspd;
+//		y += yspd;
 //	}
 //	if (!place_meeting(x + xspd, y,colobj))
 //	{
-		x += xspd;
+//		x += xspd;
 //	}
 if(!(keyboard_check(ord("W"))||keyboard_check(ord("S"))||keyboard_check(ord("A"))||keyboard_check(ord("D"))))
 {
@@ -42,9 +42,9 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 
 
-x = clamp(x,0, room_width);
+x = clamp(x,500, room_width-500);
 
-y= clamp(y,0,room_height);
+y= clamp(y,500,room_height-500);
 
 if mouse_check_button_pressed(mb_left)
 {	
