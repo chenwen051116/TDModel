@@ -17,8 +17,8 @@
     "path":"folders/Objects/gameElement/player element.yy",
   },
   "parentObjectId":{
-    "name":"tower",
-    "path":"objects/tower/tower.yy",
+    "name":"o_par_twr",
+    "path":"objects/o_par_twr/o_par_twr.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -1,6 +1,6 @@
 
 if(!global.freeze){
-global.mbnum = instance_number(o_mbase);
+global.mbnum = instance_number(o_monsterBase);
 show_debug_message(global.mbnum);
 mon1timer -= delta_time/1000000;
 if(gmtimer <= 300){

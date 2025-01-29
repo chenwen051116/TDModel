@@ -1,19 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"o_bulletat",
+  "%Name":"o_archerTwr",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_par_monster","path":"objects/o_par_monster/o_par_monster.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_bulletat",
+  "name":"o_archerTwr",
   "overriddenProperties":[],
   "parent":{
     "name":"towers",
     "path":"folders/Objects/gameElement/towers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_par_twr",
+    "path":"objects/o_par_twr/o_par_twr.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Bulletatt",
-    "path":"sprites/Bulletatt/Bulletatt.yy",
+    "name":"arch",
+    "path":"sprites/arch/arch.yy",
   },
   "spriteMaskId":null,
   "visible":true,

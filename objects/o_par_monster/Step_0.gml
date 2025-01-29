@@ -29,7 +29,7 @@ if (mp_grid_path(global.monMap, cur_path, x, y, o_main.x, o_main.y, false)) {
     path_end();
 }
 	
-if(place_meeting(x,y,o_froztzone)){
+if(place_meeting(x,y,o_frozeZone)){
 	path_speed = spd * global.spdthe/2;
 }
 else{

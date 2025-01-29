@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"o_goldt",
+  "%Name":"o_frozeZone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_mon","path":"objects/o_mon/o_mon.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_goldt",
+  "name":"o_frozeZone",
   "overriddenProperties":[],
   "parent":{
     "name":"towers",
     "path":"folders/Objects/gameElement/towers.yy",
   },
-  "parentObjectId":{
-    "name":"tower",
-    "path":"objects/tower/tower.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.0,
@@ -40,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"goldt",
-    "path":"sprites/goldt/goldt.yy",
+    "name":"frofield",
+    "path":"sprites/frofield/frofield.yy",
   },
   "spriteMaskId":null,
   "visible":true,

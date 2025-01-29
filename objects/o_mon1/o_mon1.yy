@@ -10,8 +10,8 @@
     "path":"folders/Objects/gameElement/monsters.yy",
   },
   "parentObjectId":{
-    "name":"o_mon",
-    "path":"objects/o_mon/o_mon.yy",
+    "name":"o_par_monster",
+    "path":"objects/o_par_monster/o_par_monster.yy",
   },
   "persistent":true,
   "physicsAngularDamping":0.1,
