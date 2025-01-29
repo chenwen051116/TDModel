@@ -1,7 +1,7 @@
-var startx = x-16;
-var starty = y-16;
-var endx = x+290+16;
-var endy = y+290+16;
+var startx = x-30;
+var starty = y-30;
+var endx = x+290+30;
+var endy = y+290+30;
 
 if(startx <0){
 	startx = 0;
@@ -17,3 +17,4 @@ if(endy >= room_height){
 }
 //mp_grid_add_rectangle(global.monMap, startx, starty, endx, endy);
 mp_grid_add_instances(global.monMap, o_boundary, true);
+mp_grid_add_rectangle(global.monMap,startx, starty, endx, endy);
