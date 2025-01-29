@@ -1,2 +1,2 @@
-instance_destroy(instance_nearest(x,y,o_frozeZone));
+instance_destroy(freeze_zone);
 show_debug_message("des");

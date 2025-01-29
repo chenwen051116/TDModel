@@ -1,3 +1,5 @@
+event_inherited();
+
 tint = 0.5*global.fcythe;
 r = 400;
 t -= delta_time/1000000;
@@ -11,9 +13,4 @@ if(t<=0){
 		}
 	}
 	t=tint;
-}
-
-image_alpha = thealth/mthealth;
-if(thealth <=0){
-	instance_destroy();
 }

@@ -10,8 +10,8 @@
   "name":"o_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/Objects/gameElement/towers.yy",
+    "name":"gameElement",
+    "path":"folders/Objects/gameElement.yy",
   },
   "parentObjectId":null,
   "persistent":false,
