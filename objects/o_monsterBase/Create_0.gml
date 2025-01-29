@@ -1,7 +1,7 @@
 gmtimer=0;
 mon1time=10;//mn1 create time
 
-mon1timer=0;
+mon1timer=1;
 
 mon2time=60;//mn1 create time
 
