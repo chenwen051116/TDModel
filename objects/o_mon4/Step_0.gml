@@ -3,8 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
-tint -= delta_time/1000000;
-if(tint < 0){
+t_interv -= delta_time/1000000;
+if(t_interv < 0){
 	instance_create_layer(x,y,"Instances",o_mon4sub); 
-	tint = 2;
+	t_interv = 2;
 }

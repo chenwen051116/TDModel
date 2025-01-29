@@ -1,5 +1,5 @@
 event_inherited()
 cost = 200;
-tint = 1;
-t = tint;
+t_interv = 1;
+t = t_interv;
 gold = 10;
