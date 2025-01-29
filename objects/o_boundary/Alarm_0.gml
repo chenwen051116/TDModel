@@ -1,7 +1,7 @@
 var startx = x-30;
 var starty = y-30;
-var endx = x+290+30;
-var endy = y+290+30;
+var endx = x+260+30;
+var endy = y+260+30;
 
 if(startx <0){
 	startx = 0;
