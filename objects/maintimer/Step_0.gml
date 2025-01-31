@@ -4,7 +4,6 @@ if(!global.freeze){
 }
 else{
 	audio_pause_all();
-	show_debug_message(3);
 }
 
 if(themetimer < 0){

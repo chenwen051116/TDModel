@@ -1,7 +1,6 @@
 
 if(!global.freeze){
 global.mbnum = instance_number(o_monsterBase);
-show_debug_message(global.mbnum);
 mon1timer -= delta_time/1000000;
 if(gmtimer <= 300){
 gmtimer += delta_time/1000000;
@@ -18,7 +17,6 @@ if( mon1func >= 8){
 if(mon1timer < 0){
 	mon1timer = mon1time * the - mon1func;
 	instance_create_layer(x, y, "Instances", o_mon1);
-	show_debug_message(1);
 }
 
 mon2timer -= delta_time/1000000;
