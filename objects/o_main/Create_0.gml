@@ -1,6 +1,5 @@
-show_debug_message(2);
 h = 10;
-money = 2000;
+money = 1145141919810;
 expe = 0;
 tnum=0;
 global.mbnum = 2;
