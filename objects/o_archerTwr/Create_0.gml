@@ -1,8 +1,8 @@
 event_inherited()
 
 cost = 400;
-tint = 0.5;
-t = tint;
+t_interv = 0.5;
+t = t_interv;
 mon=[mon1,mon2];
 
 r = 400;

@@ -1,6 +1,6 @@
 event_inherited();
 
-tint = 0.5*global.fcythe;
+t_interv = 0.5*global.fcythe;
 r = 400;
 t -= delta_time/1000000;
 if(t<=0){
@@ -12,5 +12,5 @@ if(t<=0){
 			audio_play_sound_ext({ sound: arrowshot });
 		}
 	}
-	t=tint;
+	t=t_interv;
 }
