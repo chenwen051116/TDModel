@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_levelup",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_levelup",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"player element",
     "path":"folders/Objects/gameElement/player element.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_lvupmenu",
+    "path":"objects/o_lvupmenu/o_lvupmenu.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

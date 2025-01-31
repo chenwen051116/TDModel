@@ -55,6 +55,7 @@
     {"id":{"name":"o_goldTwr","path":"objects/o_goldTwr/o_goldTwr.yy",},},
     {"id":{"name":"o_goldTwrM","path":"objects/o_goldTwrM/o_goldTwrM.yy",},},
     {"id":{"name":"o_levelup","path":"objects/o_levelup/o_levelup.yy",},},
+    {"id":{"name":"o_lvupmenu","path":"objects/o_lvupmenu/o_lvupmenu.yy",},},
     {"id":{"name":"o_main","path":"objects/o_main/o_main.yy",},},
     {"id":{"name":"o_mon1","path":"objects/o_mon1/o_mon1.yy",},},
     {"id":{"name":"o_mon2","path":"objects/o_mon2/o_mon2.yy",},},

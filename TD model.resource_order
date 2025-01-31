@@ -36,6 +36,7 @@
     {"name":"o_goldTwr","order":3,"path":"objects/o_goldTwr/o_goldTwr.yy",},
     {"name":"o_goldTwrM","order":7,"path":"objects/o_goldTwrM/o_goldTwrM.yy",},
     {"name":"o_levelup","order":8,"path":"objects/o_levelup/o_levelup.yy",},
+    {"name":"o_lvupmenu","order":10,"path":"objects/o_lvupmenu/o_lvupmenu.yy",},
     {"name":"o_main","order":3,"path":"objects/o_main/o_main.yy",},
     {"name":"o_mon1","order":4,"path":"objects/o_mon1/o_mon1.yy",},
     {"name":"o_mon2","order":5,"path":"objects/o_mon2/o_mon2.yy",},

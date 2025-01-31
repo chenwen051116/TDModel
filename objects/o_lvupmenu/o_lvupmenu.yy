@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_del",
+  "%Name":"o_lvupmenu",
   "eventList":[],
   "managed":true,
-  "name":"o_del",
+  "name":"o_lvupmenu",
   "overriddenProperties":[],
   "parent":{
     "name":"player element",
     "path":"folders/Objects/gameElement/player element.yy",
   },
-  "parentObjectId":{
-    "name":"o_lvupmenu",
-    "path":"objects/o_lvupmenu/o_lvupmenu.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprdel",
-    "path":"sprites/sprdel/sprdel.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

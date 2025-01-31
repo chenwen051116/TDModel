@@ -29,42 +29,9 @@ else{
 }
 gmtb+=delta_time/1000000;
 
-if(tb <=0&&basenum <=15){
-	tbt=60/((power(2.718,gmtb/240)));
-	var flag = false;
-	while(!flag){
-		flag=true;
-	randomize();
-	rand=random_range(-2,2);
-	randomize();
-	if(rand<-1){
-	rx=random_range(200,2800);
-	ry=200;
-	}	
-	else if(rand<0){
-	rx=random_range(200,2800);
-	ry=2800;
-	}
-	else if(rand<1){
-	ry=random_range(200,2800);
-	rx=200;
-	}
-	else{
-	ry=random_range(200,2800);
-	rx=2800;
-	}
-	if(place_meeting(rx,ry,o_monsterBase)){
-		flag=false;
-	}
-	}
-	
-	instance_create_layer(rx,ry,"Instances",o_monsterBase);
-	tb=tbt;
-	basenum ++;
-}
 
 if mouse_check_button_pressed(mb_left){
-	if(global.upgrading){
+	if(global.upgrading&&!place_meeting(mouse_x,mouse_y,o_lvupmenu)){
 		global.upgrading = false;
 	}
 }
