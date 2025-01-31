@@ -13,3 +13,5 @@ if(global.upgrading == false){
 		instance_destroy(instance_nearest(x,y,o_del),true);
 	}
 }
+
+image_blend = global.upg_color_list[lv];

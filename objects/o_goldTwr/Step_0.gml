@@ -1,6 +1,6 @@
 event_inherited()
-gold = 10;
-t_interv = 1*global.fcythe;
+gold = 10+lv*10/5;
+t_interv = 1-lv*0.5/5;
 g =ceil(gold/(o_main.mdvd));
 t -= delta_time/1000000;
 
