@@ -62,3 +62,9 @@ if(tb <=0&&basenum <=15){
 	tb=tbt;
 	basenum ++;
 }
+
+if mouse_check_button_pressed(mb_left){
+	if(global.upgrading){
+		global.upgrading = false;
+	}
+}
