@@ -8,16 +8,21 @@ if (num_pressed == -1 || num_pressed == 0) return;
 
 if(global.towercost[num_pressed - 1] > 0){
 	sel = true;
-	show_debug_message("sel set to true")
-	var center_x = o_selecbox.tx + o_selecbox.sprite_width / 2;
-	var center_y = o_selecbox.ty + o_selecbox.sprite_height / 2;
-	var flag = true;
+	//show_debug_message("sel set to true");
+	var center_x = o_selecbox.tx+32;
+	var center_y = o_selecbox.ty+32;
 	
-	show_debug_message("colliding with frozeTwr " + string(place_meeting(center_x, center_y, o_frozeTwr)))
-	
-	if(place_meeting(center_x, center_y, colobj)){
+	//if(place_meeting(center_x, center_y, o_par_twr)){
+	if(collision_point(center_x,center_y,o_par_twr,true,true )){
 		flag = false;
 	}
+	else{
+		flag = true;
+	}
+	
+	show_debug_message("colliding with " + string(place_meeting(center_x, center_y, o_par_twr)))
+	
+
 	if(o_main.money >= global.towercost[num_pressed - 1] && flag){
 		selected = num_pressed - 1;
 	}
