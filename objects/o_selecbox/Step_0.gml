@@ -7,9 +7,10 @@ y=floor(mouse_y/64)*64;
 		// or the player is deleting towers by clicking mouse right 
 		show_debug_message("selebox on");
 		image_alpha = 1;
+		
 
 	}
-	else{    
+	else{
 		image_alpha = 0;
 	}
 //}
