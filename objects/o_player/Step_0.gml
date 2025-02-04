@@ -50,8 +50,8 @@ if mouse_check_button_pressed(mb_left)
 {	
 if(selected != -1){
 	o_main.money -= global.towercost[selected];
-	var dx=o_selecbox.x+32;
-	var dy=o_selecbox.y+32;
+	var dx=o_selecbox.tx+32;
+	var dy=o_selecbox.ty+32;
 	instance_create_layer(dx, dy, "Instances",global.towerselect[selected]);
 	selected = -1;
 }
