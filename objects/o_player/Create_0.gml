@@ -10,3 +10,4 @@ atkint = matkint;
 
 
 colobj = [o_main, o_par_twr,o_monsterBase];
+flag = false;
