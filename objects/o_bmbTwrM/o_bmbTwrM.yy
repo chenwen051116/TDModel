@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"o_bmbTwr",
+  "%Name":"o_bmbTwrM",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_par_monster","path":"objects/o_par_monster/o_par_monster.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_bmbTwr",
+  "name":"o_bmbTwrM",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/Objects/gameElement/towers.yy",
+    "name":"twrSelMenu",
+    "path":"folders/Objects/twrSelMenu.yy",
   },
   "parentObjectId":{
-    "name":"o_par_twr",
-    "path":"objects/o_par_twr/o_par_twr.yy",
+    "name":"o_par_towerSelBtn",
+    "path":"objects/o_par_towerSelBtn/o_par_towerSelBtn.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
