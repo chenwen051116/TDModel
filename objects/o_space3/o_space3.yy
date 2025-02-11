@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"twrSelMenu",
-    "path":"folders/Objects/twrSelMenu.yy",
+    "path":"folders/Objects/gameElement/twrSelMenu.yy",
   },
   "parentObjectId":{
     "name":"o_spacex",

@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"twrSelMenu",
-    "path":"folders/Objects/twrSelMenu.yy",
+    "path":"folders/Objects/gameElement/twrSelMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
