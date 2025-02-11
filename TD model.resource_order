@@ -27,6 +27,7 @@
   "ResourceOrderSettings":[
     {"name":"maintimer","order":6,"path":"objects/maintimer/maintimer.yy",},
     {"name":"o_archerTwrM","order":5,"path":"objects/o_archerTwrM/o_archerTwrM.yy",},
+    {"name":"o_bmbTwr","order":12,"path":"objects/o_bmbTwr/o_bmbTwr.yy",},
     {"name":"o_boundary","order":7,"path":"objects/o_boundary/o_boundary.yy",},
     {"name":"o_bullet","order":7,"path":"objects/o_bullet/o_bullet.yy",},
     {"name":"o_del","order":9,"path":"objects/o_del/o_del.yy",},
@@ -77,6 +78,7 @@
     {"name":"shot","order":8,"path":"sounds/shot/shot.yy",},
     {"name":"vilin","order":1,"path":"sounds/vilin/vilin.yy",},
     {"name":"Battlemap_1","order":6,"path":"sprites/Battlemap_1/Battlemap_1.yy",},
+    {"name":"bmb","order":18,"path":"sprites/bmb/bmb.yy",},
     {"name":"boundary","order":14,"path":"sprites/boundary/boundary.yy",},
     {"name":"Bulletatt","order":4,"path":"sprites/Bulletatt/Bulletatt.yy",},
     {"name":"frofield","order":5,"path":"sprites/frofield/frofield.yy",},
