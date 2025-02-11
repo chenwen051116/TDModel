@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"button",
-    "path":"folders/Objects/twrSelMenu/button.yy",
+    "path":"folders/Objects/gameElement/twrSelMenu/button.yy",
   },
   "parentObjectId":null,
   "persistent":false,

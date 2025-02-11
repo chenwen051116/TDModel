@@ -19,8 +19,8 @@
     {"$GMFolder":"","%Name":"monsters","folderPath":"folders/Objects/gameElement/monsters.yy","name":"monsters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player element","folderPath":"folders/Objects/gameElement/player element.yy","name":"player element","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"towers","folderPath":"folders/Objects/gameElement/towers.yy","name":"towers","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"twrSelMenu","folderPath":"folders/Objects/twrSelMenu.yy","name":"twrSelMenu","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"button","folderPath":"folders/Objects/twrSelMenu/button.yy","name":"button","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"twrSelMenu","folderPath":"folders/Objects/gameElement/twrSelMenu.yy","name":"twrSelMenu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"button","folderPath":"folders/Objects/gameElement/twrSelMenu/button.yy","name":"button","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"TD model",
   "resources":[
