@@ -25,10 +25,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"maintimer","order":6,"path":"objects/maintimer/maintimer.yy",},
+    {"name":"o_bmbbullet","order":33,"path":"objects/o_bmbbullet/o_bmbbullet.yy",},
     {"name":"o_bmbTwr","order":12,"path":"objects/o_bmbTwr/o_bmbTwr.yy",},
     {"name":"o_bmbTwrM","order":16,"path":"objects/o_bmbTwrM/o_bmbTwrM.yy",},
     {"name":"o_boundary","order":7,"path":"objects/o_boundary/o_boundary.yy",},
     {"name":"o_bullet","order":7,"path":"objects/o_bullet/o_bullet.yy",},
+    {"name":"o_cantTwrM","order":17,"path":"objects/o_cantTwrM/o_cantTwrM.yy",},
     {"name":"o_canTwr","order":13,"path":"objects/o_canTwr/o_canTwr.yy",},
     {"name":"o_del","order":9,"path":"objects/o_del/o_del.yy",},
     {"name":"o_frozeTwr","order":4,"path":"objects/o_frozeTwr/o_frozeTwr.yy",},
