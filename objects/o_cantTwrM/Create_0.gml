@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 refobj = o_canTwr;
-cost =200;
+cost =800;

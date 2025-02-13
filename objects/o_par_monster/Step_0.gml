@@ -11,7 +11,7 @@ if (current_time - last_path_rec_tm > path_rec_interv){
                 y : y 
             })   
     last_path_rec_tm = current_time; 
-    show_debug_message("path_hist " + string(path_history));
+    //show_debug_message("path_hist " + string(path_history));
 }
 
 
