@@ -1,1 +1,1 @@
-effect_create_above(ef_explosion, x, y, a, c_white);
+effect_create_above(ef_ring, x, y, a, c_white);

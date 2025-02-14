@@ -5,7 +5,7 @@ event_inherited();
 
 t_interv = 5-lv*0.3;
 r = 500+lv*200/5;
-ar = 50+lv*50/5;
+ar = 100+lv*100/5;
 t -= delta_time/1000000;
 if(t<=0){
 	if(instance_exists(o_par_monster)){
