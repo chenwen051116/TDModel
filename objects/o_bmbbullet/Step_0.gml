@@ -4,7 +4,7 @@
 	image_xscale =(-(2*(1-point_distance(x,y,aimx,aimy)/inidis)-1)*(2*(1-point_distance(x,y,aimx,aimy)/inidis)-1)+1.5);
 	image_yscale =(-(2*(1-point_distance(x,y,aimx,aimy)/inidis)-1)*(2*(1-point_distance(x,y,aimx,aimy)/inidis)-1)+1.5);
 	speed =spd ;
-	show_debug_message(-(2*(1-point_distance(x,y,aimx,aimy)/inidis)-1)*(2*(1-point_distance(x,y,aimx,aimy)/inidis)-1)+1.5);
+	show_debug_message(a);
 
 if(point_distance(x,y,aimx,aimy)<10){
 	cid = collision_circle_list(x,y,a,o_par_monster,false,false,_list,true);
