@@ -19,7 +19,7 @@ damage_to_twr = 1;
 path_history = [];
 last_path_rec_tm = current_time;
 path_rec_interv = 50;
-min_bounce_back_dist = sprite_width * 2;
+min_bounce_back_dist = 64 * 2;
 
 bounce_back_task_rec = {
     in_action : false, 
