@@ -1,5 +1,5 @@
 event_inherited()
-cost = 50;
-t_interv =3;
+cost = 800;
+t_interv = 5;
 t = t_interv;
 _list = ds_list_create();

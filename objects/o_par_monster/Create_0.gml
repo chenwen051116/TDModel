@@ -28,5 +28,5 @@ bounce_back_task_rec = {
     safe_idx : noone, 
 }
 
-init_bounce_back_multiplier = 3;
+init_bounce_back_multiplier = 2;
 bounce_back_curve = exponential_anim_curve(1., (1. / init_bounce_back_multiplier), 0.3);
