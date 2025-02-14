@@ -67,6 +67,7 @@
     {"name":"o_wallTwrM","order":8,"path":"objects/o_wallTwrM/o_wallTwrM.yy",},
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},
     {"name":"Sel","order":3,"path":"rooms/Sel/Sel.yy",},
+    {"name":"animation_curves","order":1,"path":"scripts/animation_curves/animation_curves.yy",},
     {"name":"arrowshot","order":5,"path":"sounds/arrowshot/arrowshot.yy",},
     {"name":"basss","order":2,"path":"sounds/basss/basss.yy",},
     {"name":"elec1","order":3,"path":"sounds/elec1/elec1.yy",},

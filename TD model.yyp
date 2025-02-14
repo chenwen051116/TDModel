@@ -89,6 +89,7 @@
     {"id":{"name":"Pathroom1","path":"paths/Pathroom1/Pathroom1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
+    {"id":{"name":"animation_curves","path":"scripts/animation_curves/animation_curves.yy",},},
     {"id":{"name":"keyboard_get_num","path":"scripts/keyboard_get_num/keyboard_get_num.yy",},},
     {"id":{"name":"arrowshot","path":"sounds/arrowshot/arrowshot.yy",},},
     {"id":{"name":"basss","path":"sounds/basss/basss.yy",},},
