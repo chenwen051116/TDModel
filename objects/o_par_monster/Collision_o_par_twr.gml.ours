@@ -34,7 +34,7 @@ for (var i = array_length(path_history) - 1; i >= 0; i--)
     var bottom = hy + spr_bottom;
     
     // Check collisions against *all* tower instances
-    // We’ll check the four corners to ensure none collide:
+    // We鈥檒l check the four corners to ensure none collide:
     var corners_clear = true;
   
         if (place_meeting(left,  top,    o_par_twr) ||
