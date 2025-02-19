@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_mon2",
+  "%Name":"o_monPhantom",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_mon2",
+  "name":"o_monPhantom",
   "overriddenProperties":[],
   "parent":{
     "name":"monsters",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mon2",
-    "path":"sprites/mon2/mon2.yy",
+    "name":"mon3",
+    "path":"sprites/mon3/mon3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

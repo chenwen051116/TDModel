@@ -16,7 +16,7 @@ if( mon1func >= 8){
 }
 if(mon1timer < 0){
 	mon1timer = mon1time * the - mon1func;
-	instance_create_layer(x, y, "Instances", o_mon1);
+	instance_create_layer(x, y, "Instances", o_monBasic);
 }
 
 mon2timer -= delta_time/1000000;
@@ -26,7 +26,7 @@ if( mon2func >= 30){
 }
 if(mon2timer < 0){
 	mon2timer =  the * 60/mon2func;
-	instance_create_layer(x, y, "Instances", o_mon2);
+	instance_create_layer(x, y, "Instances", o_monTitan);
 }
 
 mon3timer -= delta_time/1000000;
@@ -36,7 +36,7 @@ if( mon3func >= 20){
 }
 if(mon3timer < 0){
 	mon3timer = the * 60/mon3func;
-	instance_create_layer(x, y, "Instances", o_mon3);
+	instance_create_layer(x, y, "Instances", o_monPhantom);
 }
 
 
@@ -47,7 +47,7 @@ if( mon4func >= 170){
 }
 if(mon4timer < 0){
 	mon4timer = 180*the- mon4func;
-	instance_create_layer(x, y, "Instances", o_mon4);
+	instance_create_layer(x, y, "Instances", o_monBroodling);
 }
 
 

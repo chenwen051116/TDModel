@@ -3,4 +3,3 @@
 	global.b1refresh = true;
 	global.uprefresh = true;
 	room_restart();
-	room_goto(menu);

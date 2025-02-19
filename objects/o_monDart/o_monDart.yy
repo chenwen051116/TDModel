@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_mon4",
+  "%Name":"o_monDart",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_mon4",
+  "name":"o_monDart",
   "overriddenProperties":[],
   "parent":{
     "name":"monsters",
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mon4",
-    "path":"sprites/mon4/mon4.yy",
+    "name":"mon4sub",
+    "path":"sprites/mon4sub/mon4sub.yy",
   },
   "spriteMaskId":null,
   "visible":true,

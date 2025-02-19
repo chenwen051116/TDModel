@@ -1,7 +1,10 @@
-h = 10;
+
+event_inherited();
+max_hp = 10;
+cur_hp = max_hp;
 money = 1145141919810;
 expe = 0;
-tnum=0;
+twr_num=0;
 global.mbnum = 2;
 
 
@@ -12,15 +15,15 @@ nearposx = 0;
 nearposy = 0;
 exmon = 0;
 
-tbt=60;
-tb=tbt;
-gmtb=0;
+tbt = 60;
+tb = tbt;
+gmtb = 0;
 
 basenum = 1;
 
 secmode = false;
 
-global.monMap = mp_grid_create(0, 0, room_width/16, room_height/16,16, 16);
+global.monMap = mp_grid_create(0, 0, room_width/32, room_height/32, 32, 32);
 global.upgrading = false;
 
 global.upgradingt = self;
