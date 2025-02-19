@@ -3,20 +3,16 @@ event_inherited();
 max_hp = 10;
 cur_hp = max_hp;
 money = 1145141919810;
-expe = 0;
 twr_num=0;
-global.mbnum = 2;
+global.mon_base_cnt = 2;
 
 
 gmtimer = 0;
-aexpe = 100;
 
 nearposx = 0;
 nearposy = 0;
 exmon = 0;
 
-tbt = 60;
-tb = tbt;
 gmtb = 0;
 
 basenum = 1;

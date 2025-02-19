@@ -16,7 +16,6 @@ if(t<=0){
 			bmbins.aimy = o.y;
 			bmbins.a = ar;
 			bmbins.inidis = point_distance(x,y,o.x,o.y);
-			show_debug_message(1);
 		}
 	}
 	t=t_interv;

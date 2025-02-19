@@ -10,8 +10,6 @@ if (bounce_back_task_rec.in_action) return;
     
 path_end()
 
-show_debug_message("entering mon-twr collision");
-
 var safe_x   = noone;
 var safe_y   = noone;
 var safe_idx = -1
@@ -64,7 +62,6 @@ for (var i = array_length(path_history) - 1; i >= 0; i--)
 // If we found a safe spot, create a path to move there
 if (found_spot)
 {
-    show_debug_message("spot found");
     
     // 2) Create a path with a slight curve from current position to that safe point
     var pth = path_add();

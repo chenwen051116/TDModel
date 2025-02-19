@@ -54,7 +54,6 @@ if (bounce_back_task_rec.in_action){
             safe_idx  : -1
         }
         path_end();
-        show_debug_message("bounce back end");
     } else {
         return;
     }
