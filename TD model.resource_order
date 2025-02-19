@@ -26,6 +26,7 @@
   "ResourceOrderSettings":[
     {"name":"maintimer","order":6,"path":"objects/maintimer/maintimer.yy",},
     {"name":"o_bmbbullet","order":33,"path":"objects/o_bmbbullet/o_bmbbullet.yy",},
+    {"name":"o_bmbeff","order":14,"path":"objects/o_bmbeff/o_bmbeff.yy",},
     {"name":"o_bmbTwr","order":12,"path":"objects/o_bmbTwr/o_bmbTwr.yy",},
     {"name":"o_bmbTwrM","order":16,"path":"objects/o_bmbTwrM/o_bmbTwrM.yy",},
     {"name":"o_boundary","order":7,"path":"objects/o_boundary/o_boundary.yy",},
@@ -83,6 +84,7 @@
     {"name":"Battlemap_1","order":6,"path":"sprites/Battlemap_1/Battlemap_1.yy",},
     {"name":"bmb","order":18,"path":"sprites/bmb/bmb.yy",},
     {"name":"bmbbullet","order":20,"path":"sprites/bmbbullet/bmbbullet.yy",},
+    {"name":"bmbeffe","order":21,"path":"sprites/bmbeffe/bmbeffe.yy",},
     {"name":"bmbtw","order":19,"path":"sprites/bmbtw/bmbtw.yy",},
     {"name":"boundary","order":14,"path":"sprites/boundary/boundary.yy",},
     {"name":"Bulletatt","order":4,"path":"sprites/Bulletatt/Bulletatt.yy",},

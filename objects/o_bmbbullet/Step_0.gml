@@ -16,5 +16,7 @@ if(point_distance(x,y,aimx,aimy)<10){
     }
 	
 }
+eff = instance_create_layer(x,y,"Instances",o_bmbeff);
+eff.ra = a;
 	instance_destroy(self);
 }

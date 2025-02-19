@@ -1,11 +1,5 @@
 if(h <= 0){
-	room_persistent = false;
-	global.freeze = true;
-	global.b1refresh = true;
-	global.uprefresh = true;
-	audio_stop_all();
-	alarm[0] = 10;
-	room_goto(menu);
+	show_message("game end");
 }
 
 tnum=instance_number(o_par_twr)-1;
