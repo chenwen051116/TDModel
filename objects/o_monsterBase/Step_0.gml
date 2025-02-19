@@ -1,9 +1,9 @@
-
-if(!global.freeze){
+if(global.freeze) return;
+    
 global.mon_base_cnt = instance_number(o_monsterBase);
 mon1timer -= delta_time/1000000;
 if(gmtimer <= 300){
-gmtimer += delta_time/1000000;
+    gmtimer += delta_time/1000000;
 }
 
 if(gmtimer >= 300){
@@ -54,6 +54,5 @@ if(mon4timer < 0){
 
 
 
-}
 
 
