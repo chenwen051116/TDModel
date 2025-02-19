@@ -18,12 +18,6 @@ if(gmtimer <= 310){
 	gmtimer += delta_time/1000000;
 }
 
-if(basenum <=15){
-tb -= delta_time/1000000;
-}
-else{
-	secmode = true;
-}
 gmtb+=delta_time/1000000;
 
 
