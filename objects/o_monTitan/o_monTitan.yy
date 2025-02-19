@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_mon4sub",
+  "%Name":"o_monTitan",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_mon4sub",
+  "name":"o_monTitan",
   "overriddenProperties":[],
   "parent":{
     "name":"monsters",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mon4sub",
-    "path":"sprites/mon4sub/mon4sub.yy",
+    "name":"mon2",
+    "path":"sprites/mon2/mon2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,4 @@
-if(h <= 0){
+if(cur_hp <= 0){
 	room_persistent = false;
 	global.freeze = true;
 	global.b1refresh = true;
@@ -8,12 +8,15 @@ if(h <= 0){
 	room_goto(menu);
 }
 
-tnum=instance_number(o_par_twr)-1;
+event_inherited()
+
+twr_num=instance_number(o_par_twr)-1;
 //}
 //else{
-//	tnum=0;
+//	twr_num=0;
 //}
-mdvd = power(2,tnum/20) * global.gdthe;
+mdvd = power(2,twr_num/20) * global.gdthe;
+// more tower -> gaining less money from tasks like killing monsters
 
 
 

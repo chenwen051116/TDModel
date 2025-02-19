@@ -16,7 +16,10 @@
     "name":"player element",
     "path":"folders/Objects/gameElement/player element.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_par_twr",
+    "path":"objects/o_par_twr/o_par_twr.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.0,

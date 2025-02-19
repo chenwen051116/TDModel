@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_mon3",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_monBasic",
+  "eventList":[],
   "managed":true,
-  "name":"o_mon3",
+  "name":"o_monBasic",
   "overriddenProperties":[],
   "parent":{
     "name":"monsters",
@@ -15,7 +13,7 @@
     "name":"o_par_monster",
     "path":"objects/o_par_monster/o_par_monster.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -33,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mon3",
-    "path":"sprites/mon3/mon3.yy",
+    "name":"mon1",
+    "path":"sprites/mon1/mon1.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "mon",
+  ],
   "visible":true,
 }
