@@ -3,8 +3,6 @@
 
 event_inherited();
 
-max_hp = 200;
-cur_hp = max_hp;
 t_interv = 5-lv*0.3;
 r = 500+lv*200/5;
 ar = 100+lv*100/5;
