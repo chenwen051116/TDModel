@@ -12,7 +12,7 @@ if(t<=0){
     {
 		if(instance_exists(_list[| i])){
         _list[| i]._h -= dmg;
-		show_debug_message(_list[| i]._h);
+		//show_debug_message(_list[| i]._h);
 		}
     }
 	
