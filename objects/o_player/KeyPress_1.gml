@@ -3,7 +3,7 @@
 
 
 var num_pressed = keyboard_get_pressed_num()
-if (num_pressed == -1 || num_pressed == 0) return;
+if (num_pressed == -1 || num_pressed == 0 || num_pressed > 8) return;
 
 
 if(global.towercost[num_pressed - 1] > 0){
