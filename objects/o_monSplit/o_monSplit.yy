@@ -1,19 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"o_monsterBase",
+  "%Name":"o_monSplit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_monsterBase",
+  "name":"o_monSplit",
   "overriddenProperties":[],
   "parent":{
     "name":"monsters",
     "path":"folders/Objects/gameElement/monsters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_par_monster",
+    "path":"objects/o_par_monster/o_par_monster.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Mbase",
-    "path":"sprites/Mbase/Mbase.yy",
+    "name":"mon5",
+    "path":"sprites/mon5/mon5.yy",
   },
   "spriteMaskId":null,
   "visible":true,
