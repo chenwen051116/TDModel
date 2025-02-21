@@ -32,10 +32,8 @@ if(_led == 1){
 }
 
 if(place_meeting(x,y,o_frozeZone)){
-	path_end();
     speed = spd * global.spdthe/2;
-
-	//show_debug_message(1);
+	show_debug_message(1);
 }
 else{
     speed = spd * global.spdthe;
@@ -61,7 +59,7 @@ if (bounce_back_task_rec.in_action){
 
 if (mp_grid_path(global.monMap, cur_path, x, y, o_main.x, o_main.y, false)) {
     // Assign the path to an object
-    path_start(cur_path, spd, path_action_stop, false);
+    path_start(cur_path, speed, path_action_stop, false);
 } else {
     path_end();
 }
