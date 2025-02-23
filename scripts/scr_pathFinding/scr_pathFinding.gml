@@ -185,6 +185,8 @@ function RandomizedPathFinder(obj, left_x, right_x, up_y, down_y) constructor {
     self.find_path = function(step, randomness, ed_x, ed_y, st_x, st_y, diag, rate_func) {
         
         // TODO: find multiple path for base at once
+        // TODO: use 2D array for visited
+        // TODO: revise priority: when randomness is low should give nodes with smaller steps greater priority.
         // Ensure step is a whole number.
         assert(floor(step) == step, "Step must be a whole number");
         
