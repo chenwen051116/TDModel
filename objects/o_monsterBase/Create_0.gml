@@ -1,19 +1,55 @@
-gmtimer=0;
-mon1time=10;//mn1 create time
+cur_wave = noone;
+cur_spawn_schedule = noone;
+waves = [];
+DEF_SUB_INTERV_PERSEC = 5;
 
-mon1timer=1;
+waves[0] = new Wave({
+    mon_basic: 15,         // 10 basic monsters
+    mon_titan: 0,          // 0 titans
+    mon_phantom: 0,        // 0 phantoms
+    mon_broodling: 0,      // 0 broodlings
+    lasting_time: 30,      // Wave lasts 60 seconds
+    spawn_rate_func: function(t) { return t; } // Linear spawn curve
+});
 
-mon2time=60;//mn1 create time
+//waves[1] = new Wave({
+    //mon_basic: 15,
+    //mon_titan: 3,
+    //lasting_time: 90,
+    //spawn_rate_func: function(t) { return t*t; } // Quadratic curve: slower start then speeding up
+//});
+//
+//waves[2] = new Wave({
+    //mon_basic: 20,
+    //mon_titan: 5,
+    //mon_phantom: 2,
+    //mon_broodling: 1,
+    //lasting_time: 120,
+    //spawn_rate_func: function(t) { return sqrt(t); } // Square-root curve: fast early spawns, then tapering
+//});
 
-mon2timer=mon2time;
 
-mon3time=120;//mn1 create time
+wave_cnt = array_length(waves);
+var waves_tms = array_create(wave_cnt);
 
-mon3timer=mon3time;
+lambda_foreach(waves, function(cap, ele, idx){
+    cap.waves_tms[idx] = ele.lasting_time;
+}, {waves_tms : waves_tms})
 
-mon4time=180;//mn1 create time
+waves_time_psum = prefix_sum(waves_tms); // getting the prefix sum. This should be the abs start time of each waves
+cur_wave_idx = 0;
+waves_spawn_schedule = array_create(wave_cnt);
 
-mon4timer=mon4time;
+array_foreach(waves, function(wave, idx){
+    var tm_s = wave.lasting_time;
+    waves_spawn_schedule[idx] = create_spawn_schedule(wave, tm_s * DEF_SUB_INTERV_PERSEC);
+    print("for wave ", idx);
+    array_foreach(waves_spawn_schedule[idx], function(spawn_pt, _){
+        print("monster: ", spawn_pt.monster, " at time ", spawn_pt.time);
+    });
+});
 
 
-the = 1;
+all_wave_timer = new Timer(TimeUnit.S)
+frame_timer = new Timer(TimeUnit.S);    
+cur_wave_timer = new Timer(TimeUnit.S); // time since the last wave started

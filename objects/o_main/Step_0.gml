@@ -1,11 +1,5 @@
 if(cur_hp <= 0){
-	room_persistent = false;
-	global.freeze = true;
-	global.b1refresh = true;
-	global.uprefresh = true;
-	audio_stop_all();
-	alarm[0] = 10;
-	room_goto(menu);
+	show_message("game end");
 }
 
 event_inherited()
@@ -24,12 +18,6 @@ if(gmtimer <= 310){
 	gmtimer += delta_time/1000000;
 }
 
-if(basenum <=15){
-tb -= delta_time/1000000;
-}
-else{
-	secmode = true;
-}
 gmtb+=delta_time/1000000;
 
 

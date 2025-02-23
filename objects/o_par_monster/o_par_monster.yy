@@ -15,8 +15,8 @@
   "name":"o_par_monster",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/Objects/gameElement/towers.yy",
+    "name":"monsters",
+    "path":"folders/Objects/gameElement/monsters.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -22,25 +22,23 @@ var spr_right  = sprite_width  - sprite_xoffset;
 var spr_top    = sprite_yoffset;
 var spr_bottom = sprite_height - sprite_yoffset;
 
+
 for (var i = array_length(path_history) - 1; i >= 0; i--)
 {
     var hx = path_history[i].x;
     var hy = path_history[i].y;
     
     // Calculate the bounding box corners for that potential spot
-    var left   = hx - spr_left;
-    var right  = hx + spr_right;
-    var top    = hy - spr_top;
-    var bottom = hy + spr_bottom;
+    var bounds = get_rect_shape_bounds(self, hx, hy);
     
     // Check collisions against *all* tower instances
     // We’ll check the four corners to ensure none collide:
     var corners_clear = true;
 
-        if (place_meeting(left,  top,    o_par_twr) ||
-            place_meeting(left,  bottom, o_par_twr) ||
-            place_meeting(right, top,    o_par_twr) ||
-            place_meeting(right, bottom, o_par_twr) || 
+        if (place_meeting(bounds.left_x,  bounds.up_y,    o_par_twr) ||
+            place_meeting(bounds.left_x,  bounds.down_y, o_par_twr) ||
+            place_meeting(bounds.right_x, bounds.up_y,    o_par_twr) ||
+            place_meeting(bounds.right_x, bounds.down_y, o_par_twr) || 
             distance_to_point(hx, hy) < min_bounce_back_dist
             )
         {
