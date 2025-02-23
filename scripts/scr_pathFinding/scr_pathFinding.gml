@@ -343,14 +343,14 @@ function RandomizedPathFinder(obj, left_x, right_x, up_y, down_y) constructor {
         // Create a new path asset.
         var pth = path_add();
         if (rate_func == undefined) {
-            rate_func = function(t) { return t; };
+            rate_func = function(t) { return 1; };
         }
         var processed_points = get_path_with_ratefunc(path_points, rate_func);
         print("start to print path: ");
         for (var i = 0; i < array_length(processed_points); i++) {
             // Add each point to the path asset; processed_points[i].speed is the speed factor.
             var cur_pt = processed_points[i];
-            print("(", cur_pt.x, " , ", cur_pt.y, ")");
+            print("(", cur_pt.x, " , ", cur_pt.y, ") spd: ", cur_pt.speed);
             path_add_point(pth, processed_points[i].x, processed_points[i].y, processed_points[i].speed);
         }
         if (array_length(processed_points) > 0){
