@@ -4,11 +4,11 @@ waves = [];
 DEF_SUB_INTERV_PERSEC = 15;
 
 waves[0] = new Wave({
-    mon_basic: 15,         
+    mon_basic: 5,         
     mon_titan: 0,          // 0 titans
     mon_phantom: 0,        // 0 phantoms
     mon_broodling: 0,      // 0 broodlings
-    lasting_time: 30,      // Wave lasts 60 seconds
+    lasting_time: 20,      // Wave lasts 60 seconds
     spawn_rate_func: function(t) { return power(1-t, 15); } // burst at the start
 });
 

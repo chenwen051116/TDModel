@@ -81,6 +81,7 @@ if (found_spot)
     // 3) Start moving along the path
     //    path_action_remove removes the path automatically when done
     path_start(pth, 4, path_action_stop, false);
+    cur_path = pth;
     
     bounce_back_task_rec = {
         in_action : true, 

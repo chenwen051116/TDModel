@@ -2,4 +2,5 @@
 // 你可以在此编辑器中写入代码 
 event_inherited()
 draw_self()
-draw_path(cur_path, x, y, true)
+if (cur_path != noone)
+    draw_path(cur_path, x, y, true);

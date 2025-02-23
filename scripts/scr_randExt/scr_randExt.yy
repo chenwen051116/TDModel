@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_rand_ext",
+  "%Name":"scr_randExt",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_rand_ext",
+  "name":"scr_randExt",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

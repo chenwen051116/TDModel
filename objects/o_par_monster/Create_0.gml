@@ -10,10 +10,13 @@ _h=_maxh;//health
 x_previous = x;
 y_previous = y;
 
-cur_path = path_add();
-start_x=x;
-start_y=y;
 
+DEF_STEP = 32;
+randomized_path_finder = new RandomizedPathFinder(self, 0, room_width, 0, room_height);
+randomized_path_finder.add_blocking_instances(o_boundary);
+randomized_path = randomized_path_finder.find_path(DEF_STEP, 1, o_main.x, o_main.y, x, y, false);
+cur_path = path_add();
+// cur_path = randomized_path;
 damage_to_twr = 1;
 
 path_history = [];
@@ -30,3 +33,5 @@ bounce_back_task_rec = {
 
 init_bounce_back_multiplier = 4;
 bounce_back_curve = exponential_anim_curve(1., (1. / init_bounce_back_multiplier), 0.15);
+
+//path_start(randomized_path, spd, path_action_stop, false);

@@ -66,3 +66,7 @@ if (mp_grid_path(global.monMap, cur_path, x, y, o_main.x, o_main.y, false)) {
 } else {
     path_end();
 }
+
+
+//if (path_position <= 0)
+//    randomized_path = randomized_path_finder.find_path(DEF_STEP, .3, o_main.x, o_main.y, x, y, false);

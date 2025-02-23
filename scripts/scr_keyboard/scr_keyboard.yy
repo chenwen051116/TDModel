@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_keyboard_get_num",
+  "%Name":"scr_keyboard",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_keyboard_get_num",
+  "name":"scr_keyboard",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
