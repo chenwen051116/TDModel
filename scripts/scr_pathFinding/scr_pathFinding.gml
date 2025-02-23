@@ -1,3 +1,11 @@
+/* TODO: impl a new path finder that generates a random vector each time
+ *       take the linear combination of this vector with a vector to the 
+ *       target position. 
+ * 
+ *        Need to consider the motion when hitting objects and bouncing back. 
+ * 
+ * /
+
 /// @function Node
 /// @desc Constructs a node for path-finding with x, y, and a pointer to the previous node.
 /// @param {real} _x The x-coordinate.
