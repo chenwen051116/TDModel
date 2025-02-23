@@ -1,15 +1,15 @@
 cur_wave = noone;
 cur_spawn_schedule = noone;
 waves = [];
-DEF_SUB_INTERV_PERSEC = 5;
+DEF_SUB_INTERV_PERSEC = 15;
 
 waves[0] = new Wave({
-    mon_basic: 15,         // 10 basic monsters
+    mon_basic: 15,         
     mon_titan: 0,          // 0 titans
     mon_phantom: 0,        // 0 phantoms
     mon_broodling: 0,      // 0 broodlings
     lasting_time: 30,      // Wave lasts 60 seconds
-    spawn_rate_func: function(t) { return t; } // Linear spawn curve
+    spawn_rate_func: function(t) { return power(1-t, 15); } // burst at the start
 });
 
 //waves[1] = new Wave({
