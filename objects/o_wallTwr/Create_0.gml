@@ -1,6 +1,7 @@
 event_inherited()
-cost = 100;
+cost = 400;
 t = 10;
 t_interv = 10;
-max_hp = 10 + 10*lv/5;
+max_hp = 500 + 200*lv/5;
 cur_hp = max_hp;
+llv = lv;

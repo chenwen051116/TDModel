@@ -13,3 +13,5 @@ _led=0;
 _h=_maxh;//health
 
 t_interv = 2;
+
+damage_to_twr = 50;

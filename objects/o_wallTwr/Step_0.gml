@@ -1,3 +1,8 @@
-event_inherited()
+event_inherited();
+max_hp = 500 + 200*lv/5;
+if(lv!=llv){
+	cur_hp = max_hp;
+}
 
-t -= delta_time/1000000;
+
+llv = lv;
