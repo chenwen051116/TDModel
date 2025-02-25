@@ -5,4 +5,3 @@
 event_inherited();
 
 refobj = o_goldTwr;
-cost = 400;
