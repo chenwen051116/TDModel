@@ -12,6 +12,7 @@
 * @return {Struct} The constructed Wave struct.
 */
 function Wave(args) constructor {
+	//add monster
     mon_basic       = variable_struct_exists(args, "mon_basic")      ? args.mon_basic      : 0;
     mon_titan       = variable_struct_exists(args, "mon_titan")      ? args.mon_titan      : 0;
     mon_phantom     = variable_struct_exists(args, "mon_phantom")    ? args.mon_phantom    : 0;
@@ -36,7 +37,7 @@ function get_spawn_times(wave, num_subintervals) {
     var num_spawns = (wave.total_mon != undefined)
                         ? wave.total_mon
                         : (wave.mon_basic + wave.mon_titan + wave.mon_phantom + wave.mon_broodling);
-                        
+                    	//add monster    
     // Sample from the PDF over the normalized domain [0,1].
     var normalized_samples = sample_from_pdf(num_subintervals, wave.spawn_rate_func, num_spawns, 0, 1);
     
@@ -64,8 +65,10 @@ function get_monster_types(wave) {
         wave.mon_titan / total,
         wave.mon_phantom / total,
         wave.mon_broodling / total
+		//add monster
     ];
     // In this example, we assume the monster types are defined as these objects.
+	//add monster
     var types = [ o_monBasic, o_monTitan, o_monPhantom, o_monBroodling ];
     var num_monsters = round(total);
     

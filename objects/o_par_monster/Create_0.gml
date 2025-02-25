@@ -12,11 +12,11 @@ y_previous = y;
 
 
 DEF_STEP = 32;
-randomized_path_finder = new RandomizedPathFinder(self, 0, room_width, 0, room_height);
-randomized_path_finder.add_blocking_instances(o_boundary);
-randomized_path = randomized_path_finder.find_path(DEF_STEP, .5, o_main.x, o_main.y, x, y, false);
+//randomized_path_finder = new RandomizedPathFinder(self, 0, room_width, 0, room_height);
+//randomized_path_finder.add_blocking_instances(o_boundary);
+//randomized_path = randomized_path_finder.find_path(DEF_STEP, .5, o_main.x, o_main.y, x, y, false);
 cur_path = path_add();
-cur_path = randomized_path;
+//cur_path = randomized_path;
 damage_to_twr = 1;
 
 path_history = [];
