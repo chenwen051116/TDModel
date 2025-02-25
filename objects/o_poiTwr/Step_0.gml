@@ -1,8 +1,7 @@
 event_inherited();
 if(alive==1){
-freeze_zone.imgSca = 1+lv*1.5/5;
+freeze_zone.imgSca = global.infoMap[? o_poiTwr].lv0_r+lv*global.infoMap[? o_poiTwr].d_r;
 }
 
-max_hp = 200;
-cur_hp = max_hp;
-freeze_zone.dmg = 10+lv*20/5;
+
+freeze_zone.dmg = global.infoMap[? o_poiTwr].lv0_d+lv*global.infoMap[? o_poiTwr].d_d;

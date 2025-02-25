@@ -76,6 +76,7 @@
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},
     {"name":"Sel","order":3,"path":"rooms/Sel/Sel.yy",},
     {"name":"scr_pathFinding","order":1,"path":"scripts/scr_pathFinding/scr_pathFinding.yy",},
+    {"name":"Script10","order":11,"path":"scripts/Script10/Script10.yy",},
     {"name":"arrowshot","order":5,"path":"sounds/arrowshot/arrowshot.yy",},
     {"name":"basss","order":2,"path":"sounds/basss/basss.yy",},
     {"name":"elec1","order":3,"path":"sounds/elec1/elec1.yy",},

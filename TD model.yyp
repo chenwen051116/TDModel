@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"TD model",
   "resources":[
@@ -110,6 +110,7 @@
     {"id":{"name":"scr_timer","path":"scripts/scr_timer/scr_timer.yy",},},
     {"id":{"name":"scr_util","path":"scripts/scr_util/scr_util.yy",},},
     {"id":{"name":"scr_wave","path":"scripts/scr_wave/scr_wave.yy",},},
+    {"id":{"name":"Script10","path":"scripts/Script10/Script10.yy",},},
     {"id":{"name":"arrowshot","path":"sounds/arrowshot/arrowshot.yy",},},
     {"id":{"name":"basss","path":"sounds/basss/basss.yy",},},
     {"id":{"name":"elec1","path":"sounds/elec1/elec1.yy",},},
