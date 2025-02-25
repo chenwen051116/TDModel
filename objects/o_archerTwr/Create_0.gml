@@ -1,8 +1,8 @@
 event_inherited()
 
-lvcost  = 200
+lvcost  =400
 cost = 400;
-t_interv = 1-lv*0.1;
+t_interv = 1-lv*0.06;
 t = t_interv;
 mon=[mon1,mon2];
 

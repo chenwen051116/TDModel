@@ -1,6 +1,6 @@
 event_inherited();
 
-t_interv = 0.6-lv*0.1;
+t_interv = 0.6-lv*0.06;
 r = 300+lv*150/5;
 t -= delta_time/1000000;
 if(t<=0){
