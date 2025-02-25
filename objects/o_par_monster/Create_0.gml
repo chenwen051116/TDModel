@@ -34,4 +34,4 @@ bounce_back_task_rec = {
 init_bounce_back_multiplier = 4;
 bounce_back_curve = exponential_anim_curve(1., (1. / init_bounce_back_multiplier), 0.15);
 
-path_start(randomized_path, spd, path_action_stop, true);
+//path_start(randomized_path, spd, path_action_stop, true);

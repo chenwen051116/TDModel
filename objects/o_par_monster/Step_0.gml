@@ -60,12 +60,12 @@ if (bounce_back_task_rec.in_action){
     }
 }
 
-//if (mp_grid_path(global.monMap, cur_path, x, y, o_main.x, o_main.y, false)) {
-    //// Assign the path to an object
-    //path_start(cur_path, speed, path_action_stop, false);
-//} else {
-    //path_end();
-//}
+if (mp_grid_path(global.monMap, cur_path, x, y, o_main.x, o_main.y, false)) {
+    // Assign the path to an object
+    path_start(cur_path, speed, path_action_stop, false);
+} else {
+    path_end();
+}
 
 
 //if (path_position <= 0)
