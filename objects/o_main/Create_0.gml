@@ -2,7 +2,7 @@
 event_inherited();
 max_hp = 2000;
 cur_hp = max_hp;
-money = 40000;
+money = 2000;
 twr_num=0;
 global.mon_base_cnt = 2;
 
