@@ -1,3 +1,3 @@
 global.towersel = true;
 global.cursel = refobj;
-global.curselcost = cost;
+global.curselcost = global.infoMap[? refobj].cost;

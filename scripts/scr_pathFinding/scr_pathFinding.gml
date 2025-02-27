@@ -4,7 +4,7 @@
  * 
  *        Need to consider the motion when hitting objects and bouncing back. 
  * 
- */
+ * /
 
 /// @function Node
 /// @desc Constructs a node for path-finding with x, y, and a pointer to the previous node.

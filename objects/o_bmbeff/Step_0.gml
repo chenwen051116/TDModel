@@ -6,6 +6,7 @@ if(flag){
 	
 	t += delta_time/1000000;
 	image_alpha = -2*t*t+0.3;
+	show_debug_message(image_xscale);
 	if(t>0.3){
 		instance_destroy(self);
 	}
