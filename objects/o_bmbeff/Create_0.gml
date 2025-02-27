@@ -1,3 +1,4 @@
+
 image_alpha = 0;
 imgSca = 1;
 ra= 100;

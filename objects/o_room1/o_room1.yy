@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"o_bullet",
+  "%Name":"o_room1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_bullet",
+  "name":"o_room1",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/Objects/gameElement/towers.yy",
+    "name":"Gamemenu",
+    "path":"folders/Objects/Gamemenu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_roommenu_par",
+    "path":"objects/o_roommenu_par/o_roommenu_par.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Bulletatt",
-    "path":"sprites/Bulletatt/Bulletatt.yy",
+    "name":"room1menu",
+    "path":"sprites/room1menu/room1menu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

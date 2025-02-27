@@ -4,8 +4,8 @@
 event_inherited();
 
 t_interv =  global.infoMap[? o_canTwr].lv0_t-lv* global.infoMap[? o_canTwr].d_t;
-r =global.infoMap[? o_canTwr].lv0_r-lv* global.infoMap[? o_canTwr].d_r;
-ar = global.infoMap[? o_canTwr].lv0_ar-lv* global.infoMap[? o_canTwr].d_ar;
+r =global.infoMap[? o_canTwr].lv0_r+lv* global.infoMap[? o_canTwr].d_r;
+ar = global.infoMap[? o_canTwr].lv0_ar+lv* global.infoMap[? o_canTwr].d_ar;
 t -= delta_time/1000000;
 if(t<=0){
 	if(instance_exists(o_par_monster)){

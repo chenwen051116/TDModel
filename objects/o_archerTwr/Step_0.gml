@@ -1,7 +1,7 @@
 event_inherited();
 
 t_interv =  global.infoMap[? o_archerTwr].lv0_t-lv* global.infoMap[? o_archerTwr].d_t;
-r =  global.infoMap[? o_archerTwr].lv0_r-lv* global.infoMap[? o_archerTwr].d_r;
+r =  global.infoMap[? o_archerTwr].lv0_r+lv* global.infoMap[? o_archerTwr].d_r;
 t -= delta_time/1000000;
 if(t<=0){
 	if(instance_exists(o_par_monster)){
