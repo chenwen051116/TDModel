@@ -126,7 +126,6 @@ function sample_from_pdf(num_subintervals, pdf, num_samples, a, b) {
     for (var s = 0; s < num_samples; s++) {
         // Generate a random number between 0 (inclusive) and total_area (exclusive).
         var r = random(total_area);
-        print("sample from pdf, r=", r);
         // Use binary search to find the first index where the cumulative value is >= r.
         var index = find_first_ge(cum, r);
         
