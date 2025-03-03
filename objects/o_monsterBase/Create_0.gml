@@ -2,6 +2,7 @@ cur_wave = noone;
 cur_spawn_schedule = noone;
 waves = [];
 DEF_SUB_INTERV_PERSEC = 15;
+depth = 0;
 
 waves[0] = new Wave({
     mon_basic: 8,         

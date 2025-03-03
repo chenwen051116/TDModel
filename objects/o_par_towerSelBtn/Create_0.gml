@@ -1,3 +1,4 @@
+depth = -2;
 global.infoMap = ds_map_create();
 
 goldT = {
@@ -65,8 +66,8 @@ poiT = {
 	hp:400,
 	lv0_d:10,
 	lv0_r:1,
-	d_d:4,
-	d_r:0.3
+	d_d:2,
+	d_r:0.1
 	
 };
 ds_map_add(global.infoMap, o_poiTwr, poiT);
