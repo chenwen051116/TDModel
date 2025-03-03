@@ -14,14 +14,14 @@ waves[0] = new Wave({
 });
 
 waves[1] = new Wave({
-    mon_basic: 8,
+    mon_basic: 4,
     mon_titan: 2,
     lasting_time: 60,
     spawn_rate_func: function(t) { return t; } // Quadratic curve: slower start then speeding up
 });
 //
 waves[2] = new Wave({
-    mon_basic: 8,
+    mon_basic: 4,
     mon_titan: 4,
     mon_phantom: 1,
     mon_broodling: 0,
@@ -30,7 +30,7 @@ waves[2] = new Wave({
 });
 
 waves[3] = new Wave({
-    mon_basic: 8,
+    mon_basic: 4,
     mon_titan: 4,
     mon_phantom: 1,
     mon_broodling: 1,

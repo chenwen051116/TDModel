@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"TD model",
   "resources":[
@@ -75,6 +75,7 @@
     {"id":{"name":"o_monSplit","path":"objects/o_monSplit/o_monSplit.yy",},},
     {"id":{"name":"o_monsterBase","path":"objects/o_monsterBase/o_monsterBase.yy",},},
     {"id":{"name":"o_monsterBase1","path":"objects/o_monsterBase1/o_monsterBase1.yy",},},
+    {"id":{"name":"o_monsterBase3","path":"objects/o_monsterBase3/o_monsterBase3.yy",},},
     {"id":{"name":"o_monsterBaseTuto","path":"objects/o_monsterBaseTuto/o_monsterBaseTuto.yy",},},
     {"id":{"name":"o_monTitan","path":"objects/o_monTitan/o_monTitan.yy",},},
     {"id":{"name":"o_par_monster","path":"objects/o_par_monster/o_par_monster.yy",},},
@@ -110,6 +111,8 @@
     {"id":{"name":"Pathroom1","path":"paths/Pathroom1/Pathroom1.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"id":{"name":"Roomempty","path":"rooms/Roomempty/Roomempty.yy",},},
     {"id":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
     {"id":{"name":"Tutorialroom","path":"rooms/Tutorialroom/Tutorialroom.yy",},},
     {"id":{"name":"scr_algo","path":"scripts/scr_algo/scr_algo.yy",},},
@@ -181,8 +184,10 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Sel","path":"rooms/Sel/Sel.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Tutorialroom","path":"rooms/Tutorialroom/Tutorialroom.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Roomempty","path":"rooms/Roomempty/Roomempty.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
