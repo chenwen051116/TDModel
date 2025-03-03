@@ -1,0 +1,1 @@
+other._h -= damage;

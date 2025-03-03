@@ -35,7 +35,7 @@ if(_led == 1){
 }
 
 if(place_meeting(x,y,o_frozeZone)){
-    speed = spd * global.spdthe/2;
+    speed = spd * global.spdthe/1.5;
 	//show_debug_message(1);
 }
 else{
