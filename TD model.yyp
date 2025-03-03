@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"TD model",
   "resources":[
@@ -75,7 +75,7 @@
     {"id":{"name":"o_monSplit","path":"objects/o_monSplit/o_monSplit.yy",},},
     {"id":{"name":"o_monsterBase","path":"objects/o_monsterBase/o_monsterBase.yy",},},
     {"id":{"name":"o_monsterBase1","path":"objects/o_monsterBase1/o_monsterBase1.yy",},},
-    {"id":{"name":"o_monsterBasetuto","path":"objects/o_monsterBasetuto/o_monsterBasetuto.yy",},},
+    {"id":{"name":"o_monsterBaseTuto","path":"objects/o_monsterBaseTuto/o_monsterBaseTuto.yy",},},
     {"id":{"name":"o_monTitan","path":"objects/o_monTitan/o_monTitan.yy",},},
     {"id":{"name":"o_par_monster","path":"objects/o_par_monster/o_par_monster.yy",},},
     {"id":{"name":"o_par_towerSelBtn","path":"objects/o_par_towerSelBtn/o_par_towerSelBtn.yy",},},

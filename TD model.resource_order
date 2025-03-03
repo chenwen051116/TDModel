@@ -51,7 +51,7 @@
     {"name":"o_monPhantom","order":6,"path":"objects/o_monPhantom/o_monPhantom.yy",},
     {"name":"o_monSplit","order":10,"path":"objects/o_monSplit/o_monSplit.yy",},
     {"name":"o_monsterBase","order":3,"path":"objects/o_monsterBase/o_monsterBase.yy",},
-    {"name":"o_monsterBasetuto","order":1,"path":"objects/o_monsterBasetuto/o_monsterBasetuto.yy",},
+    {"name":"o_monsterBaseTuto","order":1,"path":"objects/o_monsterBaseTuto/o_monsterBaseTuto.yy",},
     {"name":"o_monTitan","order":5,"path":"objects/o_monTitan/o_monTitan.yy",},
     {"name":"o_par_monster","order":8,"path":"objects/o_par_monster/o_par_monster.yy",},
     {"name":"o_par_towerSelBtn","order":1,"path":"objects/o_par_towerSelBtn/o_par_towerSelBtn.yy",},

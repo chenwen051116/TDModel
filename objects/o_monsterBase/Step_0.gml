@@ -37,6 +37,6 @@ array_foreach(mons_to_spawn, function (mon, idx){
         mon_y = rand_rg(y0, y1);
     }
     instance_create_layer(mon_x, mon_y, "Instances", mon);
-})
+});
 
-frame_timer.upd_last_t()
+frame_timer.upd_last_t();
