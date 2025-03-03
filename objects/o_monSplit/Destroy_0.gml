@@ -4,15 +4,21 @@
 // Inherit the parent event
 event_inherited();
 if(splitlv == 1){
-	mn1 = instance_create_layer(x-10, y-10,"Instances",o_monSplit);
-	mn2 = instance_create_layer(x+10, y+10,"Instances",o_monSplit);
-	mn1.splitlv = 2;
-	mn2.splitlv = 2;
+    var RG = 30;
+    var SPLIT_CNT = 2;
+    repeat (SPLIT_CNT){
+        var mn = instance_create_layer(x + random_range(-RG, RG),  y + random_range(-RG, RG), "Instances", o_monSplit);
+        mn.path_history = array_duplicate(self.path_history);
+        mn.splitlv = 2;
+    }
 }
 
 if(splitlv == 2){
-	mn1 = instance_create_layer(x-5, y-5,"Instances",o_monSplit);
-	mn2 = instance_create_layer(x+5, y+5,"Instances",o_monSplit);
-	mn1.splitlv = 3;
-	mn2.splitlv = 3;
+    var RG = 15;
+    var SPLIT_CNT = 2;
+    repeat (SPLIT_CNT){
+        var mn = instance_create_layer(x + random_range(-RG, RG),  y + random_range(-RG, RG), "Instances", o_monSplit);
+        mn.path_history = array_duplicate(self.path_history);
+        mn.splitlv = 3;
+    }
 }

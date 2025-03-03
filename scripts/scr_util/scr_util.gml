@@ -79,5 +79,12 @@ function lambda_foreach(arr, func, cap){
     array_foreach(arr, make_lambda(func, cap));
 }
 
+function array_duplicate(arr) {
+    var n = array_length(arr);
+    var dup = array_create(n);
+    array_copy(dup, 0, arr, 0, n);
+    return dup;
+}
+
 
 
