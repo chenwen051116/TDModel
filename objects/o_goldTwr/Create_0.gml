@@ -9,3 +9,5 @@ lvcost = global.infoMap[? o_goldTwr].lv_cost;
 
 max_hp =  global.infoMap[? o_goldTwr].hp;
 cur_hp = max_hp;
+
+alarm[0] = 5;
