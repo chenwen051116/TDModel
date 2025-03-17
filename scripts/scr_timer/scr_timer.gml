@@ -21,7 +21,9 @@ function Timer(timer_unit) constructor {
     };
     
     cur_t      = function(){
-        return ms_to_unit(current_time);
+        var tt = ms_to_unit(current_time);
+		print("timer ",tt);
+		return tt;
     };
     
     last_t     = cur_t();

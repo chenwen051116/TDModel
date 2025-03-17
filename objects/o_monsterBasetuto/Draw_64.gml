@@ -13,5 +13,5 @@ if(cur_wave_idx==3){
 }
 
 if(cur_wave_idx==4){
-	draw_text(200, 800, "Squre with four black squre monster are Split monsters\nwho can generate small but fast children once died\nYou are almost there!")
+	draw_text(200, 800, "Squre with four black squre monster are Elite monsters\nwho is fast and strong\nYou are almost there!")
 }

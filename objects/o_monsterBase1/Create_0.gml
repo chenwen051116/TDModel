@@ -5,13 +5,13 @@ DEF_SUB_INTERV_PERSEC = 15;
 
 waves[0] = new Wave({
     mon_split : 0,
-    mon_basic: 8,         
+    mon_basic:8,         
     mon_titan: 0,          // 0 titans
     mon_phantom: 0,        // 0 phantoms
     mon_broodling: 0,      // 0 broodlings
     lasting_time: 60,      // Wave lasts 60 seconds
 	spawn_rate_func: function(t) { return t;} // Quadratic curve: slower start then speeding up
-    //spawn_rate_func: function(t) { return power(1-t, 2); } // burst at the start
+    //spawn_rate_func: funtion(t) { return power(1-t, 2); } // burst at the start
 });
 
 waves[1] = new Wave({
@@ -52,7 +52,8 @@ waves[5] = new Wave({
     mon_basic: 20,
     mon_titan: 20,
     mon_phantom: 10,
-    mon_broodling: 10,
+    mon_broodling: 5,
+		mon_split: 10,
     lasting_time: 60,
     spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
 });
@@ -61,21 +62,12 @@ waves[6] = new Wave({
     mon_basic: 20,
     mon_titan: 20,
     mon_phantom:10,
-    mon_broodling: 10,
+    mon_broodling: 5,
 	mon_split: 10,
     lasting_time: 60,
     spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
 });
 
-waves[7] = new Wave({
-    mon_basic: 20,
-    mon_titan: 20,
-    mon_phantom: 20,
-    mon_broodling: 20,
-	mon_split: 20,
-    lasting_time: 60,
-    spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
-});
 
 
 wave_cnt = array_length(waves);

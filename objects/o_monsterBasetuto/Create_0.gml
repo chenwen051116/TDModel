@@ -4,9 +4,9 @@ waves = [];
 DEF_SUB_INTERV_PERSEC = 15;
 
 waves[0] = new Wave({
-    mon_basic: 1000,         
+    mon_basic: 2,         
     mon_titan: 0,          // 0 titans
-    mon_phantom: 0,        // 0 phantoms
+    mon_phantom:0,        // 0 phantoms
     mon_broodling: 0,      // 0 broodlings
     lasting_time: 60,      // Wave lasts 60 seconds
 	spawn_rate_func: function(t) { return power(t,1.5)} // Quadratic curve: slower start then speeding up

@@ -12,6 +12,6 @@ _tbd=20;//bullet damage
 _led=0;
 _h=_maxh;//health
 
-t_interv = 2;
+t_interv = 5;
 
 damage_to_twr = 50;

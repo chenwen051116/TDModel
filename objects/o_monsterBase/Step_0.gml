@@ -27,7 +27,7 @@ var mons_to_spawn = get_monsters_in_timeframe(cur_spawn_schedule, frame_timer.la
 array_foreach(mons_to_spawn, function (mon, idx){
     var bounds = get_rect_shape_bounds(self);
     var mon_x = -1145, mon_y =  -1145;
-	var OFFSET = 64;
+	var OFFSET = 0;
     with (mon){
         var x0 = bounds.left_x + sprite_xoffset + OFFSET;
         var x1 = bounds.right_x - (sprite_width - sprite_xoffset) - OFFSET;

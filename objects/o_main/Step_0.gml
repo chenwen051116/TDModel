@@ -1,7 +1,7 @@
 if(cur_hp <= 0){
 	show_message("game end");
-	
-	room_goto(Menu);
+	room_restart();
+	alarm[2] = 1;
 }
 
 event_inherited()

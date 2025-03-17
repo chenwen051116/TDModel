@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-if(cur_wave_idx == 7){
+if(cur_wave_idx == 5){
 	global.freeze = true;
 	alarm[0] = 5;
 	
