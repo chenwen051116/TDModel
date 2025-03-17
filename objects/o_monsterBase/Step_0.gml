@@ -41,3 +41,9 @@ array_foreach(mons_to_spawn, function (mon, idx){
 });
 
 frame_timer.upd_last_t();
+
+if(cur_wave_idx == 6){
+	show_message("You Win");
+	game_end();
+	
+}
