@@ -30,3 +30,4 @@ array_foreach(waves, function(wave, idx){
 all_wave_timer = new Timer(TimeUnit.S)
 frame_timer = new Timer(TimeUnit.S);    
 cur_wave_timer = new Timer(TimeUnit.S); // time since the last wave started
+

@@ -9,10 +9,7 @@ _h=_maxh;//health
 
 x_previous = x;
 y_previous = y;
-tar_x = o_main.x;
-tar_y = o_main.y;
-RAND_PATH_PROB = .05;
-reaching_rand_spot = false;
+
 
 DEF_STEP = 32;
 //randomized_path_finder = new RandomizedPathFinder(self, 0, room_width, 0, room_height);
@@ -28,10 +25,10 @@ path_rec_interv = 50;
 min_bounce_back_dist = 64 * 2;
 
 bounce_back_task_rec = {
-    in_action : false,
+    in_action : false, 
     safe_x : noone,
     safe_y : noone,
-    safe_idx : noone,
+    safe_idx : noone, 
 }
 
 init_bounce_back_multiplier = 4;
