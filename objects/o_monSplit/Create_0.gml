@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 spd=2;
-_maxh=200;//maxhealth
+_maxh=150;//maxhealth
 _m=ceil(100/(o_main.mdvd+1));//money
 _tbd=20;//bullet damage
 _led=0;
