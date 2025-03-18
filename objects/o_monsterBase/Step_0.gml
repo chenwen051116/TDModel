@@ -42,7 +42,7 @@ array_foreach(mons_to_spawn, function (mon, idx){
 
 frame_timer.upd_last_t();
 
-if(cur_wave_idx == 6){
+if(cur_wave_idx == wave_cnt){
 	show_message("Win!");
 	game_end();
 }
