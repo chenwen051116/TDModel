@@ -60,6 +60,8 @@ waves[5] = new Wave({
 
 
 
+
+
 wave_cnt = array_length(waves);
 var waves_tms = array_create(wave_cnt);
 
