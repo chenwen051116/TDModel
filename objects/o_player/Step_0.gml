@@ -32,7 +32,10 @@ if keyboard_check(ord("D"))
 //	{
 //		x += xspd;
 //	}
-if(!(keyboard_check(ord("W"))||keyboard_check(ord("S"))||keyboard_check(ord("A"))||keyboard_check(ord("D"))))
+if(!(keyboard_check(ord("W")) ||
+     keyboard_check(ord("S")) ||
+     keyboard_check(ord("A")) ||
+     keyboard_check(ord("D"))))
 {
 	xspd -= xspd*0.2;
 	yspd -= yspd*0.2;
@@ -48,14 +51,11 @@ y= clamp(y,500,room_height-500);
 
 if mouse_check_button_pressed(mb_left)
 {	
-if(selected != -1&&flag){
-	o_main.money -= global.towercost[selected];
-	var dx=o_selecbox.tx+32;
-	var dy=o_selecbox.ty+32;
-	instance_create_layer(dx, dy, "Instances",global.towerselect[selected]);
-	selected = -1;
-}
-
-
+    if(selected != -1&&flag){
+    	o_main.money -= global.towercost[selected];
+    	var dx=o_selecbox.tx+32;
+    	var dy=o_selecbox.ty+32;
+    	instance_create_layer(dx, dy, "Instances",global.towerselect[selected]);
+    }
 }
 
