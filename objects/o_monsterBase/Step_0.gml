@@ -5,6 +5,7 @@ var lower_bound = (cur_wave_idx == 0) ? 0 : waves_time_psum[cur_wave_idx - 1];
 assert(elapsed >= lower_bound);
 var found = false;
 if (elapsed >= lower_bound && elapsed < waves_time_psum[cur_wave_idx]) {
+    print("cur_wave_idx: ", cur_wave_idx);
     cur_wave = waves[cur_wave_idx];
     cur_spawn_schedule = waves_spawn_schedule[cur_wave_idx];
     found = true;
@@ -19,6 +20,11 @@ for (var i = cur_wave_idx + 1; i < wave_cnt && !found; i++) {
         cur_spawn_schedule = waves_spawn_schedule[cur_wave_idx];
         break;
     }
+}
+
+if(cur_wave_idx == wave_cnt - 1 && elapsed >= waves_time_psum[cur_wave_idx] && !instance_exists(o_par_monster)){
+    show_message("Win!");
+    game_end();
 }
 
 var mons_to_spawn = get_monsters_in_timeframe(cur_spawn_schedule, frame_timer.last_t - cur_wave_timer.last_t, 
@@ -41,8 +47,3 @@ array_foreach(mons_to_spawn, function (mon, idx){
 });
 
 frame_timer.upd_last_t();
-
-if(cur_wave_idx == wave_cnt){
-	show_message("Win!");
-	game_end();
-}
