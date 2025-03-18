@@ -3,26 +3,26 @@
 if keyboard_check(ord("W"))
 {
     //motion_add(90, spd);
-	y-=8;
+	y-=20;
 }
 
 if keyboard_check(ord("S"))
 {
     //motion_add(90, -1*spd);
-	y+=8;
+	y+=20;
 }
 
 if keyboard_check(ord("A"))
 {
     //motion_add(0, -1*spd);
-	x-=8;
+	x-=20;
 }
 
 
 if keyboard_check(ord("D"))
 {
     //motion_add(0, spd);
-	x+=8;
+	x+=20;
 }
 //	if (!place_meeting(x, y + yspd, colobj))
 //	{
