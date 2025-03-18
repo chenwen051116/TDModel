@@ -19,13 +19,13 @@ mdvd = power(2,twr_num/20) * global.gdthe;
 if(gmtimer <= 360){
 	gmtimer += delta_time/1000000;
 }
-else{
-	if(!instance_exists(o_par_monster)){
-		show_message("Win!");
-		game_end();
+//else{
+//	if(!instance_exists(o_par_monster)){
+//		show_message("Win!");
+//		game_end();
 		
-	}
-}
+//	}
+//}
 
 gmtb+=delta_time/1000000;
 
