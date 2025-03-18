@@ -69,6 +69,16 @@ waves[6] = new Wave({
 });
 
 
+waves[7] = new Wave({
+    mon_basic: 20,
+    mon_titan: 20,
+    mon_phantom:10,
+    mon_broodling: 5,
+    mon_split: 10,
+    lasting_time: 60,
+    spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
+});
+
 
 wave_cnt = array_length(waves);
 var waves_tms = array_create(wave_cnt);

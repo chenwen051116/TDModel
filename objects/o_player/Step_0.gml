@@ -59,3 +59,7 @@ if mouse_check_button_pressed(mb_left)
     }
 }
 
+
+if (selected != -1 && o_main.money < global.towercost[selected]){
+    selected = -1;
+}
