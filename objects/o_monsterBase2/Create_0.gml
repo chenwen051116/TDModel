@@ -53,29 +53,11 @@ waves[5] = new Wave({
     mon_titan: 20,
     mon_phantom: 10,
     mon_broodling: 10,
-    lasting_time: 60,
-    spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
-});
-
-waves[6] = new Wave({
-    mon_basic: 20,
-    mon_titan: 20,
-    mon_phantom:10,
-    mon_broodling: 10,
 	mon_split: 10,
     lasting_time: 60,
     spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
 });
 
-waves[7] = new Wave({
-    mon_basic: 20,
-    mon_titan: 20,
-    mon_phantom: 20,
-    mon_broodling: 20,
-	mon_split: 20,
-    lasting_time: 60,
-    spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
-});
 
 
 wave_cnt = array_length(waves);
