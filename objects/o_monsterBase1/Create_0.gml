@@ -7,7 +7,7 @@ waves[0] = new Wave({
     mon_split : 0,
     mon_basic:12,         
     mon_titan: 0,          // 0 titans
-    mon_phantom: 0,        // 0 phantoms        
+    mon_phantom: 0,        // 0 phantoms
     mon_broodling: 0,      // 0 broodlings
     lasting_time: 60,      // Wave lasts 60 seconds
 	spawn_rate_func: function(t) { return 1;} // Quadratic curve: slower start then speeding up
@@ -62,7 +62,7 @@ waves[5] = new Wave({
 
 
 
-wave_cnt = array_length(waves);
+wave_cnt = 6;
 var waves_tms = array_create(wave_cnt);
 
 lambda_foreach(waves, function(cap, ele, idx){

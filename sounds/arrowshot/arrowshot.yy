@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"arrowshot.ogg",
   "type":0,
-  "volume":0.04,
+  "volume":0.08,
 }

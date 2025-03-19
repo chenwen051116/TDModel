@@ -1,6 +1,6 @@
 
 event_inherited();
-max_hp = 20000;
+max_hp = 2000;
 cur_hp = max_hp;
 money = 2000;
 twr_num=0;
