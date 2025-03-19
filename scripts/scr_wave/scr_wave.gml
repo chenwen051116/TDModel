@@ -20,7 +20,7 @@ function Wave(args) constructor {
 	mon_split   = variable_struct_exists(args, "mon_split")  ? args.mon_split  : 0;
 	mon_blood   = variable_struct_exists(args, "mon_blood")  ? args.mon_blood  : 0;
     lasting_time    = variable_struct_exists(args, "lasting_time")   ? args.lasting_time   : 60;
-    total_mon       = mon_basic + mon_titan + mon_phantom + mon_broodling;
+    total_mon       = mon_basic + mon_titan + mon_phantom + mon_broodling + mon_split + mon_blood;
     spawn_rate_func = variable_struct_exists(args, "spawn_rate_func") ? args.spawn_rate_func : (function(t) { return t; });
     
 }
@@ -61,7 +61,7 @@ function get_spawn_times(wave, num_subintervals) {
 /// @param {struct} wave The weight struct containing monster counts.
 /// @returns {array} An array of monster types (length equals the total number of monsters).
 function get_monster_types(wave) {
-    var total = wave.mon_basic + wave.mon_titan + wave.mon_phantom + wave.mon_broodling + wave.mon_split;
+    var total = wave.mon_basic + wave.mon_titan + wave.mon_phantom + wave.mon_broodling + wave.mon_split + wave.mon_blood;
     var probabilities = [
         wave.mon_basic / total,
         wave.mon_titan / total,

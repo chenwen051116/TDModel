@@ -11,8 +11,8 @@ if(t<=0){
     for (var i = 0; i < cid; ++i;)
     {
 		if(instance_exists( _list[| i])){
-		if (_list[| i].cur_hp + 10 < _list[| i].max_hp){
-        _list[| i].cur_hp+=10;
+		if (_list[| i].cur_hp + 50 < _list[| i].max_hp){
+        _list[| i].cur_hp+=50;
 		}
 		else{
 			_list[| i].cur_hp=_list[| i].max_hp;
