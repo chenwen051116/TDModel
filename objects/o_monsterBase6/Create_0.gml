@@ -40,7 +40,7 @@ waves[3] = new Wave({
 waves[4] = new Wave({
     mon_basic: 10,
     mon_titan: 10,
-    mon_phantom: 1,
+    mon_phantom: 0,
     mon_broodling: 2,
     lasting_time: 60,
     spawn_rate_func: function(t) { return t; } // Square-root curve: fast early spawns, then tapering
@@ -68,7 +68,7 @@ waves[6] = new Wave({
 waves[7] = new Wave({
     mon_basic: 10,
     mon_titan: 10,
-    mon_phantom: 2,
+    mon_phantom: 1,
     mon_broodling: 5,
 	mon_split: 2,
 	mon_blood: 1,

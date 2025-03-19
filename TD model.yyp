@@ -141,6 +141,7 @@
     {"id":{"name":"Script10","path":"scripts/Script10/Script10.yy",},},
     {"id":{"name":"arrowshot","path":"sounds/arrowshot/arrowshot.yy",},},
     {"id":{"name":"basss","path":"sounds/basss/basss.yy",},},
+    {"id":{"name":"bmbs","path":"sounds/bmbs/bmbs.yy",},},
     {"id":{"name":"elec1","path":"sounds/elec1/elec1.yy",},},
     {"id":{"name":"elec2","path":"sounds/elec2/elec2.yy",},},
     {"id":{"name":"lazer","path":"sounds/lazer/lazer.yy",},},

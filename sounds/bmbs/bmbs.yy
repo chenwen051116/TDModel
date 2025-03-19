@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"arrowshot",
+  "%Name":"bmbs",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.449206,
-  "name":"arrowshot",
+  "duration":1.097125,
+  "name":"bmbs",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"arrowshot.ogg",
+  "soundFile":"bmbs.mp3",
   "type":0,
-  "volume":0.08,
+  "volume":0.35,
 }

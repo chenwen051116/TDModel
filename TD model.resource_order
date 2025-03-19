@@ -106,6 +106,7 @@
     {"name":"Script10","order":11,"path":"scripts/Script10/Script10.yy",},
     {"name":"arrowshot","order":5,"path":"sounds/arrowshot/arrowshot.yy",},
     {"name":"basss","order":2,"path":"sounds/basss/basss.yy",},
+    {"name":"bmbs","order":10,"path":"sounds/bmbs/bmbs.yy",},
     {"name":"elec1","order":3,"path":"sounds/elec1/elec1.yy",},
     {"name":"elec2","order":4,"path":"sounds/elec2/elec2.yy",},
     {"name":"lazer","order":6,"path":"sounds/lazer/lazer.yy",},
