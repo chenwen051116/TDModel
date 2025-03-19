@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"TD model",
   "resources":[
@@ -69,6 +69,7 @@
     {"id":{"name":"o_lvupmenu","path":"objects/o_lvupmenu/o_lvupmenu.yy",},},
     {"id":{"name":"o_main","path":"objects/o_main/o_main.yy",},},
     {"id":{"name":"o_monBasic","path":"objects/o_monBasic/o_monBasic.yy",},},
+    {"id":{"name":"o_monBlood","path":"objects/o_monBlood/o_monBlood.yy",},},
     {"id":{"name":"o_monBroodling","path":"objects/o_monBroodling/o_monBroodling.yy",},},
     {"id":{"name":"o_monDart","path":"objects/o_monDart/o_monDart.yy",},},
     {"id":{"name":"o_monPhantom","path":"objects/o_monPhantom/o_monPhantom.yy",},},
@@ -175,6 +176,7 @@
     {"id":{"name":"mon4","path":"sprites/mon4/mon4.yy",},},
     {"id":{"name":"mon4sub","path":"sprites/mon4sub/mon4sub.yy",},},
     {"id":{"name":"mon5","path":"sprites/mon5/mon5.yy",},},
+    {"id":{"name":"mon6","path":"sprites/mon6/mon6.yy",},},
     {"id":{"name":"Player","path":"sprites/Player/Player.yy",},},
     {"id":{"name":"poifiel","path":"sprites/poifiel/poifiel.yy",},},
     {"id":{"name":"poisont","path":"sprites/poisont/poisont.yy",},},

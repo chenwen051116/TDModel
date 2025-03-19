@@ -18,6 +18,7 @@ function Wave(args) constructor {
     mon_phantom     = variable_struct_exists(args, "mon_phantom")    ? args.mon_phantom    : 0;
     mon_broodling   = variable_struct_exists(args, "mon_broodling")  ? args.mon_broodling  : 0;
 	mon_split   = variable_struct_exists(args, "mon_split")  ? args.mon_split  : 0;
+	mon_blood   = variable_struct_exists(args, "mon_blood")  ? args.mon_blood  : 0;
     lasting_time    = variable_struct_exists(args, "lasting_time")   ? args.lasting_time   : 60;
     total_mon       = mon_basic + mon_titan + mon_phantom + mon_broodling;
     spawn_rate_func = variable_struct_exists(args, "spawn_rate_func") ? args.spawn_rate_func : (function(t) { return t; });
@@ -37,7 +38,7 @@ function get_spawn_times(wave, num_subintervals) {
     // If total_mon is defined, use it; otherwise compute it from monster counts.
     var num_spawns = (wave.total_mon != undefined)
                         ? wave.total_mon
-                        : (wave.mon_basic + wave.mon_titan + wave.mon_phantom + wave.mon_broodling + wave.mon_split);
+                        : (wave.mon_basic + wave.mon_titan + wave.mon_phantom + wave.mon_broodling + wave.mon_split + wave.mon_blood);
                     	//add monster    
     // Sample from the PDF over the normalized domain [0,1].
     var normalized_samples = sample_from_pdf(num_subintervals, wave.spawn_rate_func, num_spawns, 0, 1);
@@ -66,12 +67,13 @@ function get_monster_types(wave) {
         wave.mon_titan / total,
         wave.mon_phantom / total,
         wave.mon_broodling / total,
-		wave.mon_split / total
+		wave.mon_split / total,
+		wave.mon_blood / total
 		//add monster
     ];
     // In this example, we assume the monster types are defined as these objects.
 	//add monster
-    var types = [ o_monBasic, o_monTitan, o_monPhantom, o_monBroodling, o_monSplit];
+    var types = [ o_monBasic, o_monTitan, o_monPhantom, o_monBroodling, o_monSplit, o_monBlood];
     var num_monsters = round(total);
     
     // Use weighted random selection based on the provided helper function.

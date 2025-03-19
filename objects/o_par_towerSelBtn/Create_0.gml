@@ -55,7 +55,7 @@ healT = {
 	lv_cost:200,
 	hp:200,
 	lv0_r:1,
-	d_r:0.2
+	d_r:0.1
 	
 };
 ds_map_add(global.infoMap, o_healTwr, healT);
@@ -67,7 +67,7 @@ poiT = {
 	lv0_d:10,
 	lv0_r:1,
 	d_d:2,
-	d_r:0.15
+	d_r:0.1
 	
 };
 ds_map_add(global.infoMap, o_poiTwr, poiT);

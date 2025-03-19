@@ -4,8 +4,8 @@ waves = [];
 DEF_SUB_INTERV_PERSEC = 15;
 
 waves[0] = new Wave({
-    mon_split : 500,
-    mon_basic: 4,         
+    mon_split : 0,
+    mon_basic: 6,         
     mon_titan: 0,          // 0 titans
     mon_phantom: 0,        // 0 phantoms
     mon_broodling: 0,      // 0 broodlings

@@ -11,10 +11,10 @@ if(t<=0){
 	{
     for (var i = 0; i < cid; ++i;)
     {
-		//if(instance_exists(_list[| i])){
+		if(instance_exists(_list[| i])){
         _list[| i]._h -= dmg;
 
-		//}
+		}
     }
 	
 	}

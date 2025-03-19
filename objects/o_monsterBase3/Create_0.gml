@@ -73,12 +73,13 @@ waves[7] = new Wave({
     mon_phantom: 10,
     mon_broodling: 10,
 	mon_split: 10,
+	mon_blood: 1,
     lasting_time: 60,
     spawn_rate_func: function(t) { return 1; } // Square-root curve: fast early spawns, then tapering
 });
 
 
-wave_cnt = array_length(waves);
+wave_cnt = 8;
 var waves_tms = array_create(wave_cnt);
 
 lambda_foreach(waves, function(cap, ele, idx){

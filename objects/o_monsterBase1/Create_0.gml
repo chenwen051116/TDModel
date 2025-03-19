@@ -62,7 +62,7 @@ waves[5] = new Wave({
 
 
 
-wave_cnt = array_length(waves);
+wave_cnt = 6;
 var waves_tms = array_create(wave_cnt);
 
 lambda_foreach(waves, function(cap, ele, idx){
