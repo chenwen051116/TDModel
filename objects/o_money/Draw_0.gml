@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(x, y, "+ $" + string(amount))
+event_inherited();
+draw_self();
+draw_text(x + 40, y, "+ $" + string(amount));
