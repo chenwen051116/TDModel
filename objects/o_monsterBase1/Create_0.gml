@@ -7,7 +7,7 @@ waves[0] = new Wave({
     mon_split : 0,
     mon_basic:12,         
     mon_titan: 0,          // 0 titans
-    mon_phantom: 0,        // 0 phantoms
+    mon_phantom: 0,        // 0 phantoms        
     mon_broodling: 0,      // 0 broodlings
     lasting_time: 60,      // Wave lasts 60 seconds
 	spawn_rate_func: function(t) { return 1;} // Quadratic curve: slower start then speeding up
